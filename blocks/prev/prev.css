@@ -1,0 +1,9 @@
+.prev {
+  width: var(--w);
+  justify-self: center;
+  display: grid;
+  position: relative;
+  margin-bottom: 1000px;
+  box-sizing: border-box;
+  padding: 0 32px;
+}
