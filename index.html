@@ -1,18 +1,91 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/index.css">
-  <title>Hello World</title>
-</head>
-<body class="page">
-  <header class="header">
-    <h1 class="header__title">Hello World!</h1>
-  </header>
-  <main class="main"></main>
-  <footer class="footer"></footer>
-  <script src="./script/index.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>ВИЛС</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <nav class="header__top-bar">
+        <a class="header__logo-gr" href="./index.html">
+          <img
+            class="header__vils-logo"
+            src="./images/header/vils_logo.png"
+            alt="Логотип ВИЛС"
+          />
+          <p class="header__vils-text">Всероссийский институт лёкгих сплавов</p>
+        </a>
+        <ul class="header__links">
+          <li class="header__list">
+            <a class="header__link" href="#">О компании</a>
+          </li>
+          <li class="header__list">
+            <a class="header__link" href="#">Производство</a>
+          </li>
+          <li class="header__list">
+            <a class="header__link" href="#">Наука</a>
+          </li>
+          <li class="header__list">
+            <a class="header__link" href="#">Управление</a>
+          </li>
+          <li class="header__list">
+            <a class="header__link" href="#">Клиенты и партнёры</a>
+          </li>
+          <li class="header__list">
+            <a class="header__link" href="#">Вакансии</a>
+          </li>
+          <li class="header__list">
+            <a class="header__link" href="#">Медиа</a>
+          </li>
+          <li class="header__list">
+            <a class="header__link" href="#">Контакты</a>
+          </li>
+        </ul>
+        <div class="header__btn-group">
+          <a class="header__btn-menu">
+            <img class="header__img-menu" src="./images/header/bar-ico.svg" />
+          </a>
+          <a class="header__btn-profile">
+            <img
+              class="header__img-profile"
+              src="./images/header/profile-ico.svg"
+            />
+          </a>
+          <a class="header__btn-search">
+            <img
+              class="header__img-search"
+              src="./images/header/search-ico.svg"
+            />
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="prev">
+        <div class="prev__title-gr">
+          <h1 class="prev__title">«ВИЛС»</h1>
+          <h2 class="prev__subtitle">Открытое акционерное общество</h2>
+        </div>
+        <a class="prev__btn-next"
+          ><img
+            class="prev__img-next"
+            src="./images/main-prev/navigation_next.svg"
+        /></a>
+        <div class="prev__bg"></div>
+        <video class="prev__video-gr" autoplay loop muted playshine>
+          <source
+            class="prev__video"
+            src="./images/main-prev/prev-video.mp4"
+            type="video/mp4"
+          />
+          Ваш браузер не поддерживает встроенные видео
+        </video>
+      </section>
+    </main>
+    <footer class="footer"></footer>
+    <script src="./script/index.js"></script>
+  </body>
 </html>

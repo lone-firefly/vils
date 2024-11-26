@@ -1,0 +1,9 @@
+.prev__title-gr {
+  display: grid;
+  align-items: center;
+  height: 358px;
+  border: 2px solid var(--white);
+  border-radius: var(--br);
+  color: var(--white);
+  margin-top: 94px;
+}
