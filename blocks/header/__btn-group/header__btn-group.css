@@ -1,0 +1,9 @@
+.header__btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-self: flex-end;
+  width: 53px;
+  height: 53px;
+  gap: 13px;
+}

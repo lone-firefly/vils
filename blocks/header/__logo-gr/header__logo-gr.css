@@ -1,0 +1,6 @@
+.header__logo-gr {
+  display: flex;
+  height: 53px;
+  gap: 10px;
+  text-decoration: none;
+}

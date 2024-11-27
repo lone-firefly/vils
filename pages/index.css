@@ -1,13 +1,33 @@
 @import "../vendor/normalize.css";
 @import "../vendor/variables.css";
 @import "../vendor/fonts/fonts.css";
+
 /* Blocks */
 @import "../blocks/page/page.css";
+
+/* Blocks */
+@import "../blocks/logo-wh/logo-wh.css";
+
 /* Header */
 @import "../blocks/header/header.css";
-@import "../blocks/header/__title/header__title.css";
+@import "../blocks/header/__top-bar/header__top-bar.css";
+@import "../blocks/header/__logo-gr/header__logo-gr.css";
+@import "../blocks/header/__vils-logo/header__vils-logo.css";
+@import "../blocks/header/__vils-text/header__vils-text.css";
+@import "../blocks/header/__links/header__links.css";
+@import "../blocks/header/__list/header__list.css";
+@import "../blocks/header/__link/header__link.css";
+@import "../blocks/header/__btn-group/header__btn-group.css";
+@import "../blocks/header/__btn-menu/header__btn-menu.css";
+@import "../blocks/header/__img-menu/header__img-menu.css";
+@import "../blocks/header/__btn-profile/header__btn-profile.css";
+@import "../blocks/header/__img-profile/header__img-profile.css";
+@import "../blocks/header/__btn-search/header__btn-search.css";
+@import "../blocks/header/__img-search/header__img-search.css";
+
 /* Main */
 @import "../blocks/main/main.css";
+
 /* Footer */
 @import "../blocks/footer/footer.css";
 
