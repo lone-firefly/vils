@@ -1,8 +1,11 @@
 :root {
   --variables: 10px;
-  --w: 93.75vw;
+  --w: 93.75vw; /* ширина главного контейнера */
   --br: 40px; /*border radius*/
 
+  /* Colors */
   --white: #ffff;
+  --black: #000000;
   --back-blue-tr: rgba(0, 38, 100, 0.5);
+  --main-blue: #002664;
 }

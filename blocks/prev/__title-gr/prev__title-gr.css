@@ -6,4 +6,6 @@
   border-radius: var(--br);
   color: var(--white);
   margin-top: 94px;
+  box-sizing: border-box;
+  padding: 109px;
 }
