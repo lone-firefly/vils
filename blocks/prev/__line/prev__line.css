@@ -1,0 +1,5 @@
+.prev__line {
+  width: 2px;
+  height: 128px;
+  background-color: var(--main-blue);
+}
