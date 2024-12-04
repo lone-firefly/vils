@@ -1,9 +1,12 @@
 .prev {
   width: var(--w);
+  max-width: var(--w-max-adaptive);
+  height: 884px;
   justify-self: center;
+  align-content: baseline;
   display: grid;
   position: relative;
-  margin-bottom: 1000px;
+  margin-bottom: 60px;
   box-sizing: border-box;
   padding: 0 32px;
 }

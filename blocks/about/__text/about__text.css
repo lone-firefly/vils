@@ -1,0 +1,7 @@
+.about__text {
+  max-width: 721px;
+  min-width: 438px;
+  width: 53vw;
+  color: var(--white);
+  margin-top: 25px;
+}

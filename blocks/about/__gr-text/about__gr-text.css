@@ -1,0 +1,8 @@
+.about__gr-text {
+  width: 92%;
+  min-height: 50px;
+  height: fit-content;
+  padding-left: var(--padding-left-card);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
