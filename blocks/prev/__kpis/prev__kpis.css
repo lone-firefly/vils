@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: space-between;
   width: var(--ws);
+  max-width: var(--w-small-max-adaptive);
   min-height: 238px;
   height: fit-content;
   border-radius: var(--br);

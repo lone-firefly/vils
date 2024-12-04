@@ -1,5 +1,7 @@
 .header {
+  justify-self: center;
   width: var(--w);
+  max-width: 1440px;
   height: 69px;
   margin-top: 30px;
   margin-bottom: 20px;

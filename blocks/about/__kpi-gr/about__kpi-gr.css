@@ -1,0 +1,14 @@
+.about__kpi-gr {
+  height: 145px;
+  max-width: 640px;
+  min-width: 438px;
+  width: 55vw;
+  box-sizing: border-box;
+  padding: calc((145px - 86px) / 2) 0;
+  padding-left: var(--padding-left-card);
+  background-color: var(--main-blue);
+  border-radius: var(--br-c);
+  border: 2px solid var(--white);
+  color: var(--white);
+  margin-top: 17px;
+}

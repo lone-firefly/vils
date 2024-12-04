@@ -2,7 +2,12 @@
   --variables: 10px;
   --w: 93.75vw; /* ширина главного контейнера */
   --ws: 88.75vw; /* ширина внутреннего контейнера */
-  --br: 40px; /*border radius*/
+  --br: 40px; /*border radius for big sections, elements*/
+  --br-c: 25px; /*border radius for small cards*/
+  --padding-left-card: 30px; /* padding left for cards */
+
+  --w-max-adaptive: 1350px; /* макс ширина до которой расширяется большой контейнер*/
+  --w-small-max-adaptive: 1278px; /* макс ширина до которой расширяется маленький контейнер*/
 
   /* Colors */
   --white: #ffff;

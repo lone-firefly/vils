@@ -1,5 +1,6 @@
 @import "../vendor/normalize.css";
 @import "../vendor/variables.css";
+
 @import "../vendor/fonts/fonts.css";
 
 /* Blocks */
@@ -8,6 +9,7 @@
 
 /* Styles */
 @import "../blocks/text/text.css"; /* for the all text in page */
+@import "../blocks/section-title/section-title.css"; /* for the all section titles in page */
 
 /* KPI */
 @import "../blocks/kpi-gr/kpi-gr.css";
@@ -54,3 +56,16 @@
 @import "../blocks/prev/__line/prev__line.css";
 
 @import "../blocks/prev/prev.css";
+
+/* About */
+@import "../blocks/about/__title/about__title.css";
+@import "../blocks/about/__left-side/about__left-side.css";
+@import "../blocks/about/__text/about__text.css";
+@import "../blocks/about/__gr/about__gr.css";
+@import "../blocks/about/__gr-text/about__gr-text.css";
+@import "../blocks/about/__kpi-gr/about__kpi-gr.css";
+@import "../blocks/about/__kpi-title/about__kpi-title.css";
+@import "../blocks/about/__kpi-text/about__kpi-text.css";
+@import "../blocks/about/__right-side/about__right-side.css";
+@import "../blocks/about/__cert/about__cert.css";
+@import "../blocks/about/about.css";
