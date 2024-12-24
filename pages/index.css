@@ -69,3 +69,11 @@
 @import "../blocks/about/__right-side/about__right-side.css";
 @import "../blocks/about/__cert/about__cert.css";
 @import "../blocks/about/about.css";
+
+/* About */
+@import "../blocks/director/__img/director__img.css";
+@import "../blocks/director/__main-gr/director__main-gr.css";
+@import "../blocks/director/__title/director__title.css";
+@import "../blocks/director/__text/director__text.css";
+@import "../blocks/director/__white-div/director__white-div.css";
+@import "../blocks/director/director.css";

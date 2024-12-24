@@ -1,0 +1,8 @@
+.director {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: var(--ws);
+  max-width: var(--w-small-max-adaptive);
+  margin-top: 231px;
+}

@@ -1,0 +1,9 @@
+.director__img {
+  width: 343px;
+  height: 381px;
+  border-radius: var(--br);
+  position: absolute;
+  left: 0;
+  top: -106px;
+  z-index: 1;
+}
