@@ -3,6 +3,5 @@
   min-height: 50px;
   height: fit-content;
   padding-left: var(--padding-left-card);
-  padding-top: 30px;
-  padding-bottom: 30px;
+  line-height: 140%;
 }

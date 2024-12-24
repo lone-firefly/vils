@@ -20,8 +20,3 @@
     padding: 80px calc((1440px - var(--w-small-max-adaptive)) / 2);
   }
 }
-
-@media screen and (max-width: 1020px) {
-  .about {
-  }
-}

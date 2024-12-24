@@ -1,0 +1,8 @@
+.director__title {
+  color: var(--white);
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 35px;
+  height: 30px;
+}
