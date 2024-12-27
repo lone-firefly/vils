@@ -1,3 +1,10 @@
 .about__right-side {
   height: 508px;
 }
+
+@media screen and (max-width: 1060px) {
+  .about__right-side {
+    width: 240px;
+    height: 374px;
+  }
+}

@@ -2,4 +2,12 @@
   width: 326px;
   height: 508px;
   border-radius: var(--br-c);
+  grid-area: img;
+}
+
+@media screen and (max-width: 1060px) {
+  .about__cert {
+    width: 240px;
+    height: 374px;
+  }
 }

@@ -2,6 +2,5 @@
   width: 92%;
   min-height: 50px;
   height: fit-content;
-  padding-left: var(--padding-left-card);
   line-height: 140%;
 }
