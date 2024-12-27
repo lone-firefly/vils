@@ -1,4 +1,5 @@
 .about__title {
   color: var(--white);
-  padding-bottom: 25px;
+  padding-bottom: 0;
+  grid-area: title;
 }

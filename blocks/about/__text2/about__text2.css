@@ -1,0 +1,14 @@
+.about__text2 {
+  grid-area: text2;
+  max-width: 721px;
+  min-width: 438px;
+  width: 100%;
+  color: var(--white);
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 1060px) {
+  .about__text2 {
+    margin-bottom: 30px;
+  }
+}

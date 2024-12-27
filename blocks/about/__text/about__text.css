@@ -1,7 +1,8 @@
 .about__text {
+  grid-area: text1;
   max-width: 721px;
   min-width: 438px;
-  width: 53vw;
+  width: 100%;
   color: var(--white);
-  margin-top: 25px;
+  margin-top: 50px;
 }

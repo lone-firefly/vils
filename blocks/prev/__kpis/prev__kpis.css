@@ -3,7 +3,6 @@
   top: 646px;
   display: flex;
   justify-self: center;
-  align-items: center;
   justify-content: space-between;
   width: var(--ws);
   max-width: var(--w-small-max-adaptive);
@@ -13,5 +12,13 @@
   background-color: var(--white);
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
   box-sizing: border-box;
-  padding: 0 74px;
+  padding: 52px 74px;
+}
+
+@media screen and (max-width: 1060px) {
+  .prev__kpis {
+    flex-flow: column;
+    gap: 25px;
+    padding-left: 109px;
+  }
 }
