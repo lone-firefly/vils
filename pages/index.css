@@ -8,8 +8,14 @@
 @import "../blocks/logo-wh/logo-wh.css";
 
 /* Styles */
-@import "../blocks/text/text.css"; /* for the all text in page */
+@import "../blocks/text/text.css"; /* for the all text in page (18)*/
+@import "../blocks/text-bold/text-bold.css"; /* for the highlighted text (18)*/
 @import "../blocks/section-title/section-title.css"; /* for the all section titles in page */
+
+/* Lists, list, link */
+@import "../blocks/lists/lists.css";
+@import "../blocks/list/list.css";
+@import "../blocks/link/link.css";
 
 /* KPI */
 @import "../blocks/kpi-gr/kpi-gr.css";
@@ -21,7 +27,7 @@
 @import "../blocks/header/__logo-gr/header__logo-gr.css";
 @import "../blocks/header/__vils-logo/header__vils-logo.css";
 @import "../blocks/header/__vils-text/header__vils-text.css";
-@import "../blocks/header/__links/header__links.css";
+@import "../blocks/header/__lists/header__lists.css";
 @import "../blocks/header/__list/header__list.css";
 @import "../blocks/header/__link/header__link.css";
 @import "../blocks/header/__btn-group/header__btn-group.css";
@@ -36,6 +42,33 @@
 @import "../blocks/main/main.css";
 
 /* Footer */
+@import "../blocks/footer/__gr/footer__gr.css";
+@import "../blocks/footer/__gr-bg/footer__gr-bg.css";
+@import "../blocks/footer/__bg-white/footer__bg-white.css";
+@import "../blocks/footer/__bg-round/footer__bg-round.css";
+@import "../blocks/footer/__gr-main/footer__gr-main.css";
+@import "../blocks/footer/__gr-info/footer__gr-info.css";
+@import "../blocks/footer/__gr-logo/footer__gr-logo.css";
+@import "../blocks/footer/__vils-logo/footer__vils-logo.css";
+@import "../blocks/footer/__vils-text/footer__vils-text.css";
+@import "../blocks/footer/__sn-title/footer__sn-title.css";
+@import "../blocks/footer/__sn/footer__sn.css";
+@import "../blocks/footer/__sn-tg/footer__sn-tg.css";
+@import "../blocks/footer/__sn-tg-img/footer__sn-tg-img.css";
+@import "../blocks/footer/__sn-vk/footer__sn-vk.css";
+@import "../blocks/footer/__sn-vk-img/footer__sn-vk-img.css";
+@import "../blocks/footer/__gr-lists/footer__gr-lists.css";
+@import "../blocks/footer/__gr-lists-first/footer__gr-lists-first.css";
+@import "../blocks/footer/__list/footer__list.css";
+@import "../blocks/footer/__link/footer__link.css";
+@import "../blocks/footer/__gr-lists-second/footer__gr-lists-second.css";
+@import "../blocks/footer/__gr-contacts/footer__gr-contacts.css";
+@import "../blocks/footer/__contact-title/footer__contact-title.css";
+@import "../blocks/footer/__mail/footer__mail.css";
+@import "../blocks/footer/__address/footer__address.css";
+@import "../blocks/footer/__copyright/footer__copyright.css";
+@import "../blocks/footer/__rights/footer__rights.css";
+/* @import "../blocks/footer/__/footer__.css"; */
 @import "../blocks/footer/footer.css";
 
 /* Prev */

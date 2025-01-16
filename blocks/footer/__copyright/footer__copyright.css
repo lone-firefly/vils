@@ -1,0 +1,10 @@
+.footer__copyright {
+  display: flex;
+  justify-self: center;
+  align-self: baseline;
+  gap: 35px;
+  width: var(--w);
+  max-width: var(--w-max-adaptive);
+  height: 17px;
+  padding: 83px 0 55px 0;
+}

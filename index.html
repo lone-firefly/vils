@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="icon" href="./images/header/vils_logo.png" type="image/x-icon" />
     <title>ВИЛС</title>
   </head>
   <body class="page">
@@ -13,12 +14,12 @@
         <a class="header__logo-gr" href="./index.html">
           <img
             class="header__vils-logo"
-            src="./images/header/vils_logo.png"
+            src="./images/header/logo-blue.svg"
             alt="Логотип ВИЛС"
           />
           <p class="header__vils-text">Всероссийский институт лёгких сплавов</p>
         </a>
-        <ul class="header__links">
+        <ul class="header__lists">
           <li class="header__list">
             <a class="header__link" href="#">О компании</a>
           </li>
@@ -45,16 +46,16 @@
           </li>
         </ul>
         <div class="header__btn-group">
-          <a class="logo-wh header__btn-menu">
+          <a class="logo-wh header__btn-menu" href="#">
             <img class="header__img-menu" src="./images/header/bar-ico.svg" />
           </a>
-          <a class="logo-wh header__btn-profile">
+          <a class="logo-wh header__btn-profile" href="#">
             <img
               class="header__img-profile"
               src="./images/header/profile-ico.svg"
             />
           </a>
-          <a class="logo-wh header__btn-search">
+          <a class="logo-wh header__btn-search" href="#">
             <img
               class="header__img-search"
               src="./images/header/search-ico.svg"
@@ -82,7 +83,7 @@
             src="./images/main-prev/prev-video.mp4"
             type="video/mp4"
           />
-          Ваш браузер не поддерживает встроенные видео
+          <p>Ваш браузер не поддерживает встроенные видео</p>
         </video>
         <div class="prev__kpis" id="kpi">
           <div class="kpi-gr prev__kpi-gr-project">
@@ -102,7 +103,7 @@
         </div>
       </section>
       <section class="about">
-        <p class="section-title about__title">О нас</p>
+        <h3 class="section-title about__title">О нас</h3>
         <p class="text about__text">
           ОАО «ВИЛС» — стратегическое предприятие в&nbsp;области создания новых
           технологий и&nbsp;производства металлургической продукции
@@ -128,7 +129,6 @@
             Находится в инновационном портфеле института
           </p>
         </div>
-
         <img
           class="about__cert"
           src="./images/about/certificate.png"
@@ -148,8 +148,120 @@
         </div>
         <div class="director__white-div"></div>
       </section>
+      <!-- <section class="ann">
+        <h3 class="section-title ann__title">Анонсы</h3>
+        <div class="ann__cards">
+          <div class="ann__card">
+            <div class="ann__img-gr">
+              <img
+                class="ann__img"
+                src="./images/ann/"
+                style="clip-path: url(#my-clip-path)"
+              />
+              <svg class="ann__svg">
+                <defs>
+                  <clipPath id="clip-path" clipPathUnits="objectBoundingBox">
+                    <path
+                      d="M0.004,0.886 L0.004,0.253 C0.004,0.118,0.033,0.056,0.113,0.056 H0.333 C0.333,0.056,0.378,0.025,0.387,0.019 C0.395,0.013,0.41,0.006,0.41,0.006 C0.474,0.006,0.813,0.006,0.905,0.006 C0.993,0.006,1,0.086,1,0.142 V0.667 V0.82 C1,0.82,1,0.882,0.982,0.926 C0.956,0.969,0.905,0.969,0.905,0.969 H0.581 C0.581,0.969,0.561,0.983,0.535,0.995 C0.51,1,0.483,1,0.483,1 H0.096 C-0.002,1,0.004,0.935,0.004,0.886"
+                    ></path>
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <p class="ann__card-title">
+              Произошло вот что Было так то и так то
+            </p>
+            <div class="ann__line"></div>
+            <p class="text ann__card-text">
+              Произошло вот что Было так то и так то Произошло вот что Было так
+              то и так то Произошло вот что Было так то и так то Произошло вот
+              что Было так то и так то Произошло вот что Было так
+            </p>
+          </div>
+        </div>
+      </section> -->
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__gr">
+        <div class="footer__gr-bg">
+          <div class="footer__bg-white"></div>
+          <div class="footer__bg-round"></div>
+        </div>
+        <div class="footer__gr-main">
+          <div class="footer__gr-info">
+            <a class="header__logo-gr footer__gr-logo" href="./index.html">
+              <img
+                class="header__vils-logo footer__vils-logo"
+                src="./images/footer/logo-white.svg"
+                alt="Логотип ВИЛС"
+              />
+              <p class="header__vils-text footer__vils-text">
+                Всероссийский институт лёгких сплавов
+              </p>
+            </a>
+            <p class="text-bold footer__sn-title">Наши соц сети</p>
+            <div class="footer__sn">
+              <a class="footer__sn-tg" href="#">
+                <img
+                  class="footer__sn-tg-img"
+                  src="./images/footer/tg-ico.svg"
+                  alt="Ссылка на Телеграмм аккаунт"
+                />
+              </a>
+              <a class="footer__sn-vk" href="#">
+                <img
+                  class="footer__sn-vk-img"
+                  src="./images/footer/vk-ico.svg"
+                  alt="Ссылка на аккаунт Вконтакте"
+                />
+              </a>
+            </div>
+          </div>
+          <ul class="lists footer__gr-lists footer__gr-lists-first">
+            <li class="list footer__list">
+              <a class="text link footer__link" href="#">О компании</a>
+            </li>
+            <li class="list footer__list">
+              <a class="text link footer__link" href="#">Производство</a>
+            </li>
+            <li class="list footer__list">
+              <a class="text link footer__link" href="#">Наука</a>
+            </li>
+            <li class="list footer__list">
+              <a class="text link footer__link" href="#">Управление</a>
+            </li>
+            <li class="list footer__list">
+              <a class="text link footer__link" href="#">Клиенты и партнёры</a>
+            </li>
+            <li class="list footer__list">
+              <a class="text link footer__link" href="#">Работа на ВИЛС</a>
+            </li>
+          </ul>
+          <ul class="lists footer__gr-lists footer__gr-lists-second">
+            <li class="list footer__list">
+              <a class="text link footer__link" href="#">Медиа</a>
+            </li>
+            <li class="list footer__list">
+              <a class="text link footer__link" href="#">Новости</a>
+            </li>
+            <li class="list footer__list">
+              <a class="text link footer__link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <div class="footer__gr-contacts">
+            <p class="text-bold footer__contact-title">Наши почта и адрес</p>
+            <p class="text footer__mail">info@oaovils.ru</p>
+            <p class="text footer__address">
+              Адрес: 121596, Россия, г.&nbsp;Москва, ул. Горбунова, д. 2
+            </p>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <p class="text footer__rights">© 2024 ВИЛС. Все права защищены</p>
+          <p class="text footer__rights">Карта сайта</p>
+        </div>
+      </div>
+    </footer>
     <script src="./script/index.js"></script>
   </body>
 </html>

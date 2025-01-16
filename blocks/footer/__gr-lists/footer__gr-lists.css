@@ -1,0 +1,6 @@
+.footer__gr-lists {
+  display: grid;
+  gap: 18px;
+  height: fit-content;
+  padding-top: 19px;
+}

@@ -20,5 +20,6 @@
     flex-flow: column;
     gap: 25px;
     padding-left: 109px;
+    padding-right: 109px;
   }
 }

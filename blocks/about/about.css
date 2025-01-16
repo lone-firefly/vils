@@ -1,5 +1,5 @@
 .about {
-  width: 100vw;
+  width: 98vw;
   max-width: 1440px;
   min-height: 738px;
   height: fit-content;
@@ -42,5 +42,17 @@
       "text2 text2"
       "gr img"
       "kpi img";
+  }
+}
+
+@media screen and (max-width: 805px) {
+  .about {
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-areas:
+      "title"
+      "text1"
+      "text2"
+      "gr"
+      "kpi";
   }
 }

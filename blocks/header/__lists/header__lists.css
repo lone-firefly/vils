@@ -1,4 +1,4 @@
-.header__links {
+.header__lists {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -11,13 +11,13 @@
 }
 
 @media screen and (max-width: 1020px) {
-  .header__links {
+  .header__lists {
     width: 80%;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .header__links {
+  .header__lists {
     display: none;
   }
 }

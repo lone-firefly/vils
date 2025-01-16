@@ -1,0 +1,10 @@
+.footer__gr-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 59px;
+  justify-content: space-between;
+  width: var(--w);
+  height: fit-content;
+  max-width: var(--w-max-adaptive);
+  justify-self: center;
+}
