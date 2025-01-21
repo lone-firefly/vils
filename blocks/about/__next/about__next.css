@@ -1,0 +1,12 @@
+.about__next {
+  display: none;
+  grid-area: "next";
+}
+
+@media screen and (max-width: 805px) {
+  .about__next {
+    display: grid;
+    justify-self: end;
+    margin-top: 65px;
+  }
+}

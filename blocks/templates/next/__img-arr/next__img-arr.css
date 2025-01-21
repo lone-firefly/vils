@@ -1,0 +1,9 @@
+.next__img-arr {
+  transition: transform 2s;
+}
+
+.next:hover {
+  .next__img-arr {
+    transform: translateX(10px);
+  }
+}

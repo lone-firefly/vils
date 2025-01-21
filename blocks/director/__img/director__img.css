@@ -7,3 +7,18 @@
   top: -106px;
   z-index: 1;
 }
+
+@media screen and (max-width: 1060px) {
+  .director__img {
+    width: 35%;
+    height: auto;
+    min-width: 241px;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .director__img {
+    top: -180px;
+    left: 50px;
+  }
+}

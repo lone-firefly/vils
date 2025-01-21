@@ -48,11 +48,16 @@
 @media screen and (max-width: 805px) {
   .about {
     grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows:
+      30px minmax(min-content, max-content) minmax(min-content, max-content)
+      minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content);
+
     grid-template-areas:
       "title"
       "text1"
       "text2"
       "gr"
-      "kpi";
+      "kpi"
+      "next";
   }
 }

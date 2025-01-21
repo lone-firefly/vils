@@ -1,0 +1,96 @@
+@import "../vendor/normalize.css";
+@import "../vendor/variables.css";
+
+@import "../vendor/fonts/fonts.css";
+
+/* Blocks */
+@import "../blocks/page/page.css";
+@import "../blocks/logo-wh/logo-wh.css";
+
+/* Styles */
+@import "../blocks/font-styles/text/text.css"; /* for the all text in page (18)*/
+@import "../blocks/font-styles/text-bold/text-bold.css"; /* for the highlighted text (18)*/
+@import "../blocks/font-styles/text-subtitle/text-subtitle.css"; /* for the link text with arrows (20)*/
+@import "../blocks/font-styles/section-title/section-title.css"; /* for the all section titles in page */
+@import "../blocks/font-styles/main-title/main-title.css"; /* for the page title (banner) */
+
+/* Lists, list, link */
+@import "../blocks/lists/lists.css";
+@import "../blocks/list/list.css";
+@import "../blocks/link/link.css";
+
+/* Template */
+@import "../blocks/templates/next/next.css";
+@import "../blocks/templates/next/__gr/next__gr.css";
+@import "../blocks/templates/next/__text/next__text.css";
+@import "../blocks/templates/next/__img-arr/next__img-arr.css";
+@import "../blocks/templates/next/__line/next__line.css";
+
+@import "../blocks/templates/card/card.css";
+
+@import "../blocks/templates/kpi/__gr/kpi__gr.css";
+@import "../blocks/templates/kpi/__title/kpi__title.css";
+@import "../blocks/templates/kpi/kpi.css";
+
+@import "../blocks/templates/banner/__img/banner__img.css";
+@import "../blocks/templates/banner/__bg/banner__bg.css";
+@import "../blocks/templates/banner/__text-gr/banner__text-gr.css";
+@import "../blocks/templates/banner/__text/banner__text.css";
+@import "../blocks/templates/banner/banner.css";
+
+/* Header */
+@import "../blocks/header/header.css";
+@import "../blocks/header/__top-bar/header__top-bar.css";
+@import "../blocks/header/__logo-gr/header__logo-gr.css";
+@import "../blocks/header/__vils-logo/header__vils-logo.css";
+@import "../blocks/header/__vils-text/header__vils-text.css";
+@import "../blocks/header/__lists/header__lists.css";
+@import "../blocks/header/__list/header__list.css";
+@import "../blocks/header/__link/header__link.css";
+@import "../blocks/header/__btn-group/header__btn-group.css";
+@import "../blocks/header/__btn-menu/header__btn-menu.css";
+@import "../blocks/header/__img-menu/header__img-menu.css";
+@import "../blocks/header/__btn-profile/header__btn-profile.css";
+@import "../blocks/header/__img-profile/header__img-profile.css";
+@import "../blocks/header/__btn-search/header__btn-search.css";
+@import "../blocks/header/__img-search/header__img-search.css";
+
+/* Main */
+@import "../blocks/main/main.css";
+
+/* Footer */
+@import "../blocks/footer/__gr/footer__gr.css";
+@import "../blocks/footer/__gr-bg/footer__gr-bg.css";
+@import "../blocks/footer/__bg-white/footer__bg-white.css";
+@import "../blocks/footer/__bg-round/footer__bg-round.css";
+@import "../blocks/footer/__gr-main/footer__gr-main.css";
+@import "../blocks/footer/__gr-info/footer__gr-info.css";
+@import "../blocks/footer/__gr-logo/footer__gr-logo.css";
+@import "../blocks/footer/__vils-logo/footer__vils-logo.css";
+@import "../blocks/footer/__vils-text/footer__vils-text.css";
+@import "../blocks/footer/__sn-title/footer__sn-title.css";
+@import "../blocks/footer/__sn/footer__sn.css";
+@import "../blocks/footer/__sn-tg/footer__sn-tg.css";
+@import "../blocks/footer/__sn-tg-img/footer__sn-tg-img.css";
+@import "../blocks/footer/__sn-vk/footer__sn-vk.css";
+@import "../blocks/footer/__sn-vk-img/footer__sn-vk-img.css";
+@import "../blocks/footer/__gr-lists/footer__gr-lists.css";
+@import "../blocks/footer/__gr-lists-first/footer__gr-lists-first.css";
+@import "../blocks/footer/__list/footer__list.css";
+@import "../blocks/footer/__link/footer__link.css";
+@import "../blocks/footer/__gr-lists-second/footer__gr-lists-second.css";
+@import "../blocks/footer/__gr-contacts/footer__gr-contacts.css";
+@import "../blocks/footer/__contact-title/footer__contact-title.css";
+@import "../blocks/footer/__mail/footer__mail.css";
+@import "../blocks/footer/__address/footer__address.css";
+@import "../blocks/footer/__copyright/footer__copyright.css";
+@import "../blocks/footer/__rights/footer__rights.css";
+/* @import "../blocks/footer/__/footer__.css"; */
+@import "../blocks/footer/footer.css";
+
+/* Poster */
+@import "../blocks/poster/__img/poster__img.css";
+@import "../blocks/poster/__bg/poster__bg.css";
+@import "../blocks/poster/__text-gr/poster__text-gr.css";
+@import "../blocks/poster/__text/poster__text.css";
+@import "../blocks/poster/poster.css";

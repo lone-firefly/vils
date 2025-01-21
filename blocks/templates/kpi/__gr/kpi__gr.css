@@ -1,0 +1,8 @@
+.kpi__gr {
+  display: grid;
+  margin: 0;
+  gap: 5px;
+  min-height: 86px;
+  height: fit-content;
+  width: fit-content;
+}

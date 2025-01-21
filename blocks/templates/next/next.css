@@ -1,0 +1,7 @@
+.next {
+  display: grid;
+  gap: 6px;
+  width: max-content;
+  color: var(--white);
+  text-decoration: none;
+}

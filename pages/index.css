@@ -8,18 +8,29 @@
 @import "../blocks/logo-wh/logo-wh.css";
 
 /* Styles */
-@import "../blocks/text/text.css"; /* for the all text in page (18)*/
-@import "../blocks/text-bold/text-bold.css"; /* for the highlighted text (18)*/
-@import "../blocks/section-title/section-title.css"; /* for the all section titles in page */
+@import "../blocks/font-styles/text/text.css"; /* for the all text in page (18)*/
+@import "../blocks/font-styles/text-bold/text-bold.css"; /* for the highlighted text (18)*/
+@import "../blocks/font-styles/text-subtitle/text-subtitle.css"; /* for the link text with arrows (20)*/
+@import "../blocks/font-styles/section-title/section-title.css"; /* for the all section titles in page */
+@import "../blocks/font-styles/main-title/main-title.css"; /* for the page title (banner) */
 
 /* Lists, list, link */
 @import "../blocks/lists/lists.css";
 @import "../blocks/list/list.css";
 @import "../blocks/link/link.css";
 
-/* KPI */
-@import "../blocks/kpi-gr/kpi-gr.css";
-@import "../blocks/kpi-title/kpi-title.css";
+/* Template */
+@import "../blocks/templates/next/next.css";
+@import "../blocks/templates/next/__gr/next__gr.css";
+@import "../blocks/templates/next/__text/next__text.css";
+@import "../blocks/templates/next/__img-arr/next__img-arr.css";
+@import "../blocks/templates/next/__line/next__line.css";
+
+@import "../blocks/templates/card/card.css";
+
+@import "../blocks/templates/kpi/__gr/kpi__gr.css";
+@import "../blocks/templates/kpi/__title/kpi__title.css";
+@import "../blocks/templates/kpi/kpi.css";
 
 /* Header */
 @import "../blocks/header/header.css";
@@ -102,9 +113,14 @@
 @import "../blocks/about/__kpi-text/about__kpi-text.css";
 @import "../blocks/about/__right-side/about__right-side.css";
 @import "../blocks/about/__cert/about__cert.css";
+@import "../blocks/about/__next/about__next.css";
+@import "../blocks/about/__next-gr/about__next-gr.css";
+@import "../blocks/about/__next-text/about__next-text.css";
+@import "../blocks/about/__next-img/about__next-img.css";
+@import "../blocks/about/__next-line/about__next-line.css";
 @import "../blocks/about/about.css";
 
-/* About */
+/* Director */
 @import "../blocks/director/__img/director__img.css";
 @import "../blocks/director/__main-gr/director__main-gr.css";
 @import "../blocks/director/__title/director__title.css";

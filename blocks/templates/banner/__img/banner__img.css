@@ -1,0 +1,7 @@
+.banner__img {
+  width: var(--w);
+  max-width: var(--w-max-adaptive);
+  height: 315px;
+  border-radius: var(--br);
+  object-fit: cover;
+}

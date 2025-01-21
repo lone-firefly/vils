@@ -1,0 +1,11 @@
+.banner__bg {
+  width: var(--w);
+  max-width: var(--w-max-adaptive);
+  height: 315px;
+  background-color: var(--transparent-blue-banner);
+  border-radius: var(--br);
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}

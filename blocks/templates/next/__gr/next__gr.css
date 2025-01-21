@@ -1,0 +1,5 @@
+.next__gr {
+  display: flex;
+  width: fit-content;
+  gap: 9px;
+}

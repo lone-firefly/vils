@@ -5,9 +5,23 @@
   width: 80vw;
   margin-left: 31px;
   box-sizing: border-box;
-  padding-left: 346px;
-  padding-top: 57px;
+  padding: 57px 25px 0 346px;
   border-radius: var(--br);
   box-shadow: -10px -10px 30px rgba(0, 0, 0, 0.25) inset,
     10px 10px 25px rgba(0, 0, 0, 0.25) inset;
+}
+
+@media screen and (max-width: 1060px) {
+  .director__main-gr {
+    padding-left: 35%;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .director__main-gr {
+    padding-top: 130px;
+    padding-left: 50px;
+    margin: 0;
+    width: var(--ws);
+  }
 }
