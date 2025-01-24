@@ -1,0 +1,7 @@
+.cert__gr {
+  max-width: var(--w-small-max-adaptive);
+  width: var(--ws);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+}

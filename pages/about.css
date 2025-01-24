@@ -10,6 +10,7 @@
 /* Styles */
 @import "../blocks/font-styles/text/text.css"; /* for the all text in page (18)*/
 @import "../blocks/font-styles/text-bold/text-bold.css"; /* for the highlighted text (18)*/
+@import "../blocks/font-styles/text-bold/_blue/text-bold_blue.css"; /* for the blue highlighted text (18)*/
 @import "../blocks/font-styles/text-subtitle/text-subtitle.css"; /* for the link text with arrows (20)*/
 @import "../blocks/font-styles/section-title/section-title.css"; /* for the all section titles in page */
 @import "../blocks/font-styles/main-title/main-title.css"; /* for the page title (banner) */
@@ -57,6 +58,7 @@
 
 /* Main */
 @import "../blocks/main/main.css";
+@import "../blocks/main/__about/main__about.css";
 
 /* Footer */
 @import "../blocks/footer/__gr/footer__gr.css";
@@ -104,3 +106,27 @@
 @import "../blocks/info/__small-text-gr/info__small-text-gr.css";
 @import "../blocks/info/__small-text/info__small-text.css";
 @import "../blocks/info/info.css";
+
+/* Info */
+@import "../blocks/cert/__title/cert__title.css";
+@import "../blocks/cert/__gr/cert__gr.css";
+@import "../blocks/cert/__card/cert__card.css";
+@import "../blocks/cert/__img/cert__img.css";
+@import "../blocks/cert/__line/cert__line.css";
+@import "../blocks/cert/__text/cert__text.css";
+@import "../blocks/cert/cert.css";
+
+/* Accr */
+@import "../blocks/accr/__title/accr__title.css";
+@import "../blocks/accr/__lists/accr__lists.css";
+@import "../blocks/accr/__list/accr__list.css";
+@import "../blocks/accr/__text/accr__text.css";
+@import "../blocks/accr/__dot/accr__dot.css";
+@import "../blocks/accr/__text-gr/accr__text-gr.css";
+@import "../blocks/accr/accr.css";
+
+/* Std */
+@import "../blocks/std/__title/std__title.css";
+@import "../blocks/std/__text-gr/std__text-gr.css";
+@import "../blocks/std/__text/std__text.css";
+@import "../blocks/std/std.css";

@@ -1,0 +1,5 @@
+.accr__lists {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}

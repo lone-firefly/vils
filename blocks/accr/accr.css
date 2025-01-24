@@ -1,0 +1,4 @@
+.accr {
+  width: var(--ws);
+  max-width: var(--w-small-max-adaptive);
+}

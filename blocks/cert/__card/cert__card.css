@@ -1,0 +1,12 @@
+.cert__card {
+  width: 326px;
+  min-height: 528px;
+  max-height: 528px;
+  overflow: hidden;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 30px 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}

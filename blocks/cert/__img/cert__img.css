@@ -1,0 +1,6 @@
+.cert__img {
+  width: 252px;
+  height: 362px;
+  object-fit: contain;
+  border: solid 1px var(--black);
+}
