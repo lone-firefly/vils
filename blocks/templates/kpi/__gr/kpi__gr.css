@@ -5,4 +5,7 @@
   min-height: 86px;
   height: fit-content;
   width: fit-content;
+  box-sizing: border-box;
+  padding-left: var(--padding-left-card);
+  padding-right: 24px;
 }

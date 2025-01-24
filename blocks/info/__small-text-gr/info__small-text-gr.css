@@ -1,0 +1,19 @@
+.info__small-text-gr {
+  display: grid;
+  grid-area: small-text-gr;
+  max-width: 640px;
+  height: 100%;
+  width: 45vw;
+  box-sizing: border-box;
+  padding-left: var(--padding-left-card);
+  padding-top: 33px;
+  padding-bottom: 33px;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .info__small-text-gr {
+    width: 100%;
+    max-width: none;
+  }
+}

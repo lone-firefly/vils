@@ -3,4 +3,6 @@
   display: grid;
   min-height: 315px;
   height: fit-content;
+  max-width: var(--w-max-adaptive);
+  margin-bottom: 55px;
 }

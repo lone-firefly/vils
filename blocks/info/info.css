@@ -1,0 +1,29 @@
+.info {
+  display: grid;
+  grid-template-columns: minmax(min-content, max-content) minmax(
+      min-content,
+      max-content
+    );
+  grid-template-rows: minmax(min-content, max-content) minmax(
+      min-content,
+      max-content
+    );
+  grid-template-areas: "text-gr kpi" "text-gr small-text-gr";
+  width: var(--w);
+  max-width: var(--w-max-adaptive);
+  gap: 24px;
+}
+
+@media screen and (max-width: 900px) {
+  .info {
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows:
+      minmax(min-content, max-content)
+      minmax(min-content, max-content)
+      minmax(min-content, max-content);
+    grid-template-areas:
+      "text-gr"
+      "kpi"
+      "small-text-gr";
+  }
+}

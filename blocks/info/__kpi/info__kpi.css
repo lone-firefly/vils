@@ -1,0 +1,19 @@
+.info__kpi {
+  display: grid;
+  grid-area: kpi;
+  max-width: 640px;
+  width: 45vw;
+  min-height: 151px;
+  height: 100%;
+  align-content: center;
+  box-sizing: border-box;
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+
+@media screen and (max-width: 900px) {
+  .info__kpi {
+    width: 100%;
+    max-width: none;
+  }
+}

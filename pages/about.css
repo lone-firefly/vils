@@ -94,3 +94,13 @@
 @import "../blocks/poster/__text-gr/poster__text-gr.css";
 @import "../blocks/poster/__text/poster__text.css";
 @import "../blocks/poster/poster.css";
+
+/* Info */
+@import "../blocks/info/__text-gr/info__text-gr.css";
+@import "../blocks/info/__text/info__text.css";
+@import "../blocks/info/__kpi/info__kpi.css";
+@import "../blocks/info/__kpi-title/info__kpi-title.css";
+@import "../blocks/info/__kpi-text/info__kpi-text.css";
+@import "../blocks/info/__small-text-gr/info__small-text-gr.css";
+@import "../blocks/info/__small-text/info__small-text.css";
+@import "../blocks/info/info.css";
