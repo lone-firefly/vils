@@ -1,0 +1,9 @@
+.director__img-factory {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.director__img-factory path {
+  transition: filter 0.8s ease;
+}

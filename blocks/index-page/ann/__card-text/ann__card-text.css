@@ -1,0 +1,9 @@
+.ann__card-text {
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  color: var(--white);
+  margin-top: 20px;
+  transition: opacity 0.4s, visibility 0.4s, transform 0.4s ease;
+}

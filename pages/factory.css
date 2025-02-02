@@ -9,6 +9,7 @@
 /* Styles */
 @import "../blocks/font-styles/text/text.css"; /* for the all text in page (18)*/
 @import "../blocks/font-styles/text-bold/text-bold.css"; /* for the highlighted text (18)*/
+@import "../blocks/font-styles/text-bold/_blue/text-bold_blue.css"; /* for the blue highlighted text (18)*/
 @import "../blocks/font-styles/text-subtitle/text-subtitle.css"; /* for the link text with arrows (20)*/
 @import "../blocks/font-styles/section-title/section-title.css"; /* for the all section titles in page */
 @import "../blocks/font-styles/main-title/main-title.css"; /* for the page title (banner) */
@@ -33,6 +34,12 @@
 @import "../blocks/templates/kpi/__title/kpi__title.css";
 @import "../blocks/templates/kpi/kpi.css";
 
+@import "../blocks/templates/banner/__img/banner__img.css";
+@import "../blocks/templates/banner/__bg/banner__bg.css";
+@import "../blocks/templates/banner/__text-gr/banner__text-gr.css";
+@import "../blocks/templates/banner/__text/banner__text.css";
+@import "../blocks/templates/banner/banner.css";
+
 /* Header */
 @import "../blocks/header/header.css";
 @import "../blocks/header/__top-bar/header__top-bar.css";
@@ -52,6 +59,7 @@
 
 /* Main */
 @import "../blocks/main/main.css";
+@import "../blocks/main/__about/main__about.css";
 
 /* Footer */
 @import "../blocks/footer/__gr/footer__gr.css";
@@ -83,60 +91,9 @@
 /* @import "../blocks/footer/__/footer__.css"; */
 @import "../blocks/footer/footer.css";
 
-/* Prev */
-@import "../blocks/index-page/prev/__title-gr/prev__title-gr.css";
-@import "../blocks/index-page/prev/__title/prev__title.css";
-@import "../blocks/index-page/prev/__subtitle/prev__subtitle.css";
-@import "../blocks/index-page/prev/__btn-next/prev__btn-next.css";
-@import "../blocks/index-page/prev/__img-next/prev__img-next.css";
-@import "../blocks/index-page/prev/__bg/prev__bg.css";
-@import "../blocks/index-page/prev/__video-gr/prev__video-gr.css";
-@import "../blocks/index-page/prev/__video/prev__video.css";
-
-@import "../blocks/index-page/prev/__kpis/prev__kpis.css";
-@import "../blocks/index-page/prev/__kpi-gr-project/prev__kpi-gr-project.css";
-@import "../blocks/index-page/prev/__kpi-gr-age/prev__kpi-gr-age.css";
-@import "../blocks/index-page/prev/__kpi-title/prev__kpi-title.css";
-@import "../blocks/index-page/prev/__kpi-text/prev__kpi-text.css";
-@import "../blocks/index-page/prev/__line/prev__line.css";
-
-@import "../blocks/index-page/prev/prev.css";
-
-/* About */
-@import "../blocks/index-page/about/__title/about__title.css";
-@import "../blocks/index-page/about/__left-side/about__left-side.css";
-@import "../blocks/index-page/about/__text/about__text.css";
-@import "../blocks/index-page/about/__text2/about__text2.css";
-@import "../blocks/index-page/about/__gr/about__gr.css";
-@import "../blocks/index-page/about/__gr-text/about__gr-text.css";
-@import "../blocks/index-page/about/__kpi-gr/about__kpi-gr.css";
-@import "../blocks/index-page/about/__kpi-title/about__kpi-title.css";
-@import "../blocks/index-page/about/__kpi-text/about__kpi-text.css";
-@import "../blocks/index-page/about/__right-side/about__right-side.css";
-@import "../blocks/index-page/about/__cert/about__cert.css";
-@import "../blocks/index-page/about/__next/about__next.css";
-@import "../blocks/index-page/about/__next-gr/about__next-gr.css";
-@import "../blocks/index-page/about/__next-text/about__next-text.css";
-@import "../blocks/index-page/about/__next-img/about__next-img.css";
-@import "../blocks/index-page/about/__next-line/about__next-line.css";
-@import "../blocks/index-page/about/about.css";
-
-/* Director */
-@import "../blocks/index-page/director/__img/director__img.css";
-@import "../blocks/index-page/director/__main-gr/director__main-gr.css";
-@import "../blocks/index-page/director/__title/director__title.css";
-@import "../blocks/index-page/director/__text/director__text.css";
-@import "../blocks/index-page/director/__white-div/director__white-div.css";
-@import "../blocks/index-page/director/__img-factory/director__img-factory.css";
-@import "../blocks/index-page/director/director.css";
-
-/* Ann */
-@import "../blocks/index-page/ann/__title/ann__title.css";
-@import "../blocks/index-page/ann/__cards/ann__cards.css";
-@import "../blocks/index-page/ann/__card/ann__card.css";
-@import "../blocks/index-page/ann/__img/ann__img.css";
-@import "../blocks/index-page/ann/__card-bg/ann__card-bg.css";
-@import "../blocks/index-page/ann/__card-title/ann__card-title.css";
-@import "../blocks/index-page/ann/__card-text/ann__card-text.css";
-@import "../blocks/index-page/ann/__card-text/_hidden/ann__card-text_hidden.css";
-@import "../blocks/index-page/ann/ann.css";
+/* Poster */
+@import "../blocks/factory-page/poster/__img/poster__img.css";
+@import "../blocks/factory-page/poster/__bg/poster__bg.css";
+@import "../blocks/factory-page/poster/__text-gr/poster__text-gr.css";
+@import "../blocks/factory-page/poster/__text/poster__text.css";
+@import "../blocks/factory-page/poster/poster.css";

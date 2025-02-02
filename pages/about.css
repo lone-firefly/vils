@@ -5,7 +5,6 @@
 
 /* Blocks */
 @import "../blocks/page/page.css";
-@import "../blocks/logo-wh/logo-wh.css";
 
 /* Styles */
 @import "../blocks/font-styles/text/text.css"; /* for the all text in page (18)*/
@@ -16,11 +15,13 @@
 @import "../blocks/font-styles/main-title/main-title.css"; /* for the page title (banner) */
 
 /* Lists, list, link */
-@import "../blocks/lists/lists.css";
-@import "../blocks/list/list.css";
-@import "../blocks/link/link.css";
+@import "../blocks/templates/lists/lists.css";
+@import "../blocks/templates/list/list.css";
+@import "../blocks/templates/link/link.css";
 
 /* Template */
+@import "../blocks/templates/logo-wh/logo-wh.css";
+
 @import "../blocks/templates/next/next.css";
 @import "../blocks/templates/next/__gr/next__gr.css";
 @import "../blocks/templates/next/__text/next__text.css";
@@ -91,42 +92,53 @@
 @import "../blocks/footer/footer.css";
 
 /* Poster */
-@import "../blocks/poster/__img/poster__img.css";
-@import "../blocks/poster/__bg/poster__bg.css";
-@import "../blocks/poster/__text-gr/poster__text-gr.css";
-@import "../blocks/poster/__text/poster__text.css";
-@import "../blocks/poster/poster.css";
+@import "../blocks/about-page/poster/__img/poster__img.css";
+@import "../blocks/about-page/poster/__bg/poster__bg.css";
+@import "../blocks/about-page/poster/__text-gr/poster__text-gr.css";
+@import "../blocks/about-page/poster/__text/poster__text.css";
+@import "../blocks/about-page/poster/poster.css";
 
 /* Info */
-@import "../blocks/info/__text-gr/info__text-gr.css";
-@import "../blocks/info/__text/info__text.css";
-@import "../blocks/info/__kpi/info__kpi.css";
-@import "../blocks/info/__kpi-title/info__kpi-title.css";
-@import "../blocks/info/__kpi-text/info__kpi-text.css";
-@import "../blocks/info/__small-text-gr/info__small-text-gr.css";
-@import "../blocks/info/__small-text/info__small-text.css";
-@import "../blocks/info/info.css";
+@import "../blocks/about-page/info/__text-gr/info__text-gr.css";
+@import "../blocks/about-page/info/__text/info__text.css";
+@import "../blocks/about-page/info/__kpi/info__kpi.css";
+@import "../blocks/about-page/info/__kpi-title/info__kpi-title.css";
+@import "../blocks/about-page/info/__kpi-text/info__kpi-text.css";
+@import "../blocks/about-page/info/__small-text-gr/info__small-text-gr.css";
+@import "../blocks/about-page/info/__small-text/info__small-text.css";
+@import "../blocks/about-page/info/info.css";
 
-/* Info */
-@import "../blocks/cert/__title/cert__title.css";
-@import "../blocks/cert/__gr/cert__gr.css";
-@import "../blocks/cert/__card/cert__card.css";
-@import "../blocks/cert/__img/cert__img.css";
-@import "../blocks/cert/__line/cert__line.css";
-@import "../blocks/cert/__text/cert__text.css";
-@import "../blocks/cert/cert.css";
+/* Cert */
+@import "../blocks/about-page/cert/__title/cert__title.css";
+@import "../blocks/about-page/cert/__gr/cert__gr.css";
+@import "../blocks/about-page/cert/__card/cert__card.css";
+@import "../blocks/about-page/cert/__img/cert__img.css";
+@import "../blocks/about-page/cert/__line/cert__line.css";
+@import "../blocks/about-page/cert/__text/cert__text.css";
+@import "../blocks/about-page/cert/cert.css";
+
+/* Lic */
+@import "../blocks/about-page/lic/__btn-popup/lic__btn-popup.css";
+@import "../blocks/about-page/lic/__btn-text/lic__btn-text.css";
+@import "../blocks/about-page/lic/__next/lic__next.css";
+@import "../blocks/about-page/lic/__next-gr/lic__next-gr.css";
+@import "../blocks/about-page/lic/__next-text/lic__next-text.css";
+@import "../blocks/about-page/lic/__next-img/lic__next-img.css";
+@import "../blocks/about-page/lic/__next-line/lic__next-line.css";
+/* @import "../blocks/about-page/lic/__/lic__.css"; */
+@import "../blocks/about-page/lic/lic.css";
 
 /* Accr */
-@import "../blocks/accr/__title/accr__title.css";
-@import "../blocks/accr/__lists/accr__lists.css";
-@import "../blocks/accr/__list/accr__list.css";
-@import "../blocks/accr/__text/accr__text.css";
-@import "../blocks/accr/__dot/accr__dot.css";
-@import "../blocks/accr/__text-gr/accr__text-gr.css";
-@import "../blocks/accr/accr.css";
+@import "../blocks/about-page/accr/__title/accr__title.css";
+@import "../blocks/about-page/accr/__lists/accr__lists.css";
+@import "../blocks/about-page/accr/__list/accr__list.css";
+@import "../blocks/about-page/accr/__text/accr__text.css";
+@import "../blocks/about-page/accr/__dot/accr__dot.css";
+@import "../blocks/about-page/accr/__text-gr/accr__text-gr.css";
+@import "../blocks/about-page/accr/accr.css";
 
 /* Std */
-@import "../blocks/std/__title/std__title.css";
-@import "../blocks/std/__text-gr/std__text-gr.css";
-@import "../blocks/std/__text/std__text.css";
-@import "../blocks/std/std.css";
+@import "../blocks/about-page/std/__title/std__title.css";
+@import "../blocks/about-page/std/__text-gr/std__text-gr.css";
+@import "../blocks/about-page/std/__text/std__text.css";
+@import "../blocks/about-page/std/std.css";

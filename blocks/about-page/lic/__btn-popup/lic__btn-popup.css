@@ -1,0 +1,19 @@
+.lic__btn-popup {
+  background-color: var(--main-blue);
+  border: none;
+  border-radius: var(--br);
+  width: var(--w);
+  max-width: var(--w-max-adaptive);
+  height: 116px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 var(--padding-calc-flex);
+}
+
+@media screen and (min-width: 1440px) {
+  .lic__btn-popup {
+    padding: 0 var(--padding-calc-stat);
+  }
+}

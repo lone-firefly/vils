@@ -6,3 +6,7 @@
   max-width: var(--w-small-max-adaptive);
   margin-top: 231px;
 }
+
+.director:hover path {
+  filter: brightness(0.6);
+}

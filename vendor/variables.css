@@ -9,10 +9,20 @@
   --w-max-adaptive: 1350px; /* макс ширина до которой расширяется большой контейнер*/
   --w-small-max-adaptive: 1278px; /* макс ширина до которой расширяется маленький контейнер*/
 
+  --c: 1350px;
+  --cc: 1278px;
+  --caca: calc((var(--c) - var(--cc)) / 2);
+
+  --padding-calc-stat: calc((var(--c) - var(--w-small-max-adaptive)) / 2);
+
+  --padding-calc-flex: calc((var(--w) - var(--ws)) / 2);
+
   /* Colors */
   --white: #ffff;
   --black: #000000;
   --back-blue-tr: rgba(0, 38, 100, 0.5);
   --main-blue: #002664;
   --transparent-blue-banner: rgba(0, 38, 100, 0.7);
+
+  --grad-card: linear-gradient(180deg, rgba(0, 38, 100, 0) 0%, #002664 83%);
 }

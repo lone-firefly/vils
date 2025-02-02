@@ -1,4 +1,6 @@
 .director__text {
+  position: inherit;
+  z-index: 1;
   color: var(--white);
   font-size: 20px;
   height: 28px;

@@ -1,0 +1,46 @@
+.ann__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 30%;
+  min-width: 296px;
+  height: 338px;
+  position: relative;
+  border-radius: var(--br);
+  background-color: transparent;
+  box-sizing: border-box;
+  padding-bottom: 38px;
+  padding-left: 40px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1110px) {
+  .ann__card {
+    width: 47.5%;
+  }
+}
+
+@media screen and (max-width: 1082px) {
+  .ann__card {
+    width: 100%;
+  }
+}
+
+.ann__card:hover {
+  .ann__card-text {
+    opacity: 1;
+    visibility: visible;
+    height: fit-content;
+    transform: translateY(0);
+  }
+  .ann__img {
+    scale: 1.2;
+  }
+  .ann__card-bg {
+    background-image: linear-gradient(
+      180deg,
+      rgba(0, 38, 100, 0.25) 0%,
+      #002664 67%
+    );
+  }
+}

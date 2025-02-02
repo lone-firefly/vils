@@ -1,0 +1,13 @@
+.ann__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: fit-content;
+}
+
+@media screen and (max-width: 1110px) {
+  .ann__cards {
+    gap: 48px;
+  }
+}
