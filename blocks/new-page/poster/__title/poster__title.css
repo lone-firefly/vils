@@ -1,0 +1,10 @@
+.poster__title {
+  align-self: center;
+  padding: 20px var(--padding-calc-flex);
+}
+
+@media screen and (min-width: 1440px) {
+  .poster__title {
+    padding: 20px var(--padding-calc-stat);
+  }
+}

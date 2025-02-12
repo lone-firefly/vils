@@ -1,0 +1,8 @@
+.gallery__vertical {
+  width: var(--w);
+  max-width: var(--w-max-adaptive);
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 17px;
+}

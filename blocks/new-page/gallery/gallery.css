@@ -1,0 +1,8 @@
+.gallery {
+  display: grid;
+  gap: 17px;
+  width: var(--w);
+  max-width: var(--w-max-adaptive);
+  height: fit-content;
+  margin-top: 50px;
+}

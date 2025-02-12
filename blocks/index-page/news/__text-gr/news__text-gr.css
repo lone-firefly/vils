@@ -1,0 +1,10 @@
+.news__text-gr {
+  display: grid;
+  height: fit-content;
+}
+
+@media screen and (max-width: 901px) {
+  .news__text-gr {
+    gap: 15px;
+  }
+}

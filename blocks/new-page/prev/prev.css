@@ -1,0 +1,9 @@
+.prev {
+  width: var(--w);
+  max-width: var(--w-max-adaptive);
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 0.36fr 0.64fr;
+  gap: 17px;
+  margin-bottom: 50px;
+}

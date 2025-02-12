@@ -20,7 +20,13 @@
   }
 }
 
-@media screen and (max-width: 1082px) {
+@media screen and (max-width: 1085px) {
+  .ann__card {
+    width: 47%;
+  }
+}
+
+@media screen and (max-width: 901px) {
   .ann__card {
     width: 100%;
   }

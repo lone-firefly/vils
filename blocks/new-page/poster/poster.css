@@ -1,0 +1,9 @@
+.poster {
+  display: flex;
+  min-height: 195px;
+  width: var(--w);
+  max-width: var(--w-max-adaptive);
+  background-image: var(--linear-blue);
+  border-radius: var(--br);
+  margin-bottom: 55px;
+}

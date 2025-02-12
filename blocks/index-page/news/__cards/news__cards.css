@@ -1,0 +1,22 @@
+.news__cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1147px) {
+  .news__cards {
+    justify-content: unset;
+    max-width: 692px;
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 901px) {
+  .news__cards {
+    width: 100%;
+    max-width: none;
+  }
+}

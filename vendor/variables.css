@@ -23,6 +23,7 @@
   --back-blue-tr: rgba(0, 38, 100, 0.5);
   --main-blue: #002664;
   --transparent-blue-banner: rgba(0, 38, 100, 0.7);
+  --linear-blue: linear-gradient(180deg, #002664 5%, #001a46 100%);
 
   --grad-card: linear-gradient(180deg, rgba(0, 38, 100, 0) 0%, #002664 83%);
 }
