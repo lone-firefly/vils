@@ -1,6 +1,12 @@
 .prev__subtitle {
   font-weight: 700;
-  font-size: 35px;
+  font-size: var(--index-prev-subtitle-font);
   margin: 0;
   height: 43px;
+}
+
+@media screen and (max-width: 768px) {
+  .prev__subtitle {
+    height: fit-content;
+  }
 }

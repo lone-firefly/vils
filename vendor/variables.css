@@ -26,4 +26,27 @@
   --linear-blue: linear-gradient(180deg, #002664 5%, #001a46 100%);
 
   --grad-card: linear-gradient(180deg, rgba(0, 38, 100, 0) 0%, #002664 83%);
+
+  /* Font sizes */
+  --main-title-font: 40px;
+  --section-title-font: 30px;
+  --text-font: 18px;
+  --text-bold-font: 18px;
+  --text-subtitle-font: 20px;
+  --kpi-title-font: 50px;
+  --index-prev-title-font: 80px;
+  --index-prev-subtitle-font: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --main-title-font: 32px;
+    --section-title-font: 24px;
+    --text-font: 14px;
+    --text-bold-font: 14px;
+    --text-subtitle-font: 16px;
+    --kpi-title-font: 40px;
+    --index-prev-title-font: 62px;
+    --index-prev-subtitle-font: 28px;
+  }
 }

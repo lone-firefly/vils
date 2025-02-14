@@ -1,6 +1,14 @@
 .news__text-gr {
   display: grid;
   height: fit-content;
+  max-height: 237px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1147px) {
+  .news__text-gr {
+    gap: 15px;
+  }
 }
 
 @media screen and (max-width: 901px) {

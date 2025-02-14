@@ -8,3 +8,21 @@
     padding: 20px var(--padding-calc-stat);
   }
 }
+
+@media screen and (max-width: 1050px) {
+  .poster__title {
+    padding: 40px 28px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .poster__title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .poster__title {
+    font-size: 24px;
+  }
+}

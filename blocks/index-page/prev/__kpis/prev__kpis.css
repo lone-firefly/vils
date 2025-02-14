@@ -15,11 +15,29 @@
   padding: 52px 74px;
 }
 
+@media screen and (max-width: 1180px) {
+  .prev__kpis {
+    padding: 52px;
+  }
+}
+
 @media screen and (max-width: 1060px) {
   .prev__kpis {
     flex-flow: column;
-    gap: 25px;
-    padding-left: 109px;
-    padding-right: 109px;
+    gap: 45px;
+    padding: 80px 109px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .prev__kpis {
+    padding: 50px 80px;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 516px) {
+  .prev__kpis {
+    padding: 50px 50px;
   }
 }

@@ -1,8 +1,17 @@
 .director__title {
+  position: inherit;
+  z-index: 2;
   color: var(--white);
-  font-size: 30px;
   font-weight: 700;
   margin: 0;
   margin-bottom: 35px;
   min-height: 37px;
+  height: fit-content;
+  padding: 0;
+}
+
+@media screen and (max-width: 745px) {
+  .director__title {
+    margin-bottom: 22px;
+  }
 }

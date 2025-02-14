@@ -1,5 +1,5 @@
 .section-title {
-  font-size: 30px;
+  font-size: var(--section-title-font);
   font-weight: 800;
   color: var(--main-blue);
   height: 30px;

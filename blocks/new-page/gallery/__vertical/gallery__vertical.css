@@ -6,3 +6,9 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 17px;
 }
+
+@media screen and (max-width: 450px) {
+  .gallery__vertical {
+    gap: 10px;
+  }
+}

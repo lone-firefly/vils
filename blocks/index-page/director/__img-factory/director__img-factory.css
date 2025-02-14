@@ -4,6 +4,12 @@
   right: 0;
 }
 
+@media screen and (max-width: 600px) {
+  .director__img-factory {
+    filter: brightness(0.7);
+  }
+}
+
 .director__img-factory path {
   transition: filter 0.8s ease;
 }

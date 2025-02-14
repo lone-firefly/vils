@@ -12,3 +12,11 @@
     margin-bottom: 30px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .about__text2 {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    min-width: unset;
+  }
+}

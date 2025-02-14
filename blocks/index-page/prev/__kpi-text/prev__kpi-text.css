@@ -9,3 +9,10 @@
     width: fit-content;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .prev__kpi-text {
+    height: fit-content;
+    min-height: unset;
+  }
+}

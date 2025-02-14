@@ -13,6 +13,12 @@
 
 @media screen and (max-width: 1060px) {
   .prev {
-    margin-bottom: 162px;
+    margin-bottom: 260px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .prev {
+    margin-bottom: 130px;
   }
 }

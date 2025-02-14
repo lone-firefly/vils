@@ -2,6 +2,12 @@
   display: grid;
   gap: 6px;
   width: max-content;
-  color: var(--white);
+  color: var(--black);
   text-decoration: none;
+}
+
+.next:hover {
+  .next__img-arr {
+    transform: translateX(10px);
+  }
 }

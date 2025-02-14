@@ -88,7 +88,7 @@
 @import "../blocks/footer/__address/footer__address.css";
 @import "../blocks/footer/__copyright/footer__copyright.css";
 @import "../blocks/footer/__rights/footer__rights.css";
-/* @import "../blocks/footer/__/footer__.css"; */
+@import "../blocks/footer/__sn-gr/footer__sn-gr.css";
 @import "../blocks/footer/footer.css";
 
 /* Poster */

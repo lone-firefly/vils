@@ -4,3 +4,15 @@
   width: 100%;
   height: 100%;
 }
+
+@media screen and (max-width: 1050px) {
+  .gallery__hor-img {
+    border-radius: var(--br-c);
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .gallery__hor-img {
+    border-radius: 10px;
+  }
+}

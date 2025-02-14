@@ -1,6 +1,6 @@
 .main-title {
   margin: 0;
-  font-size: 40px;
+  font-size: var(--main-title-font);
   font-weight: 900;
   color: var(--white);
 }

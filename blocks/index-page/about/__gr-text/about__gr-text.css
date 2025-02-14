@@ -4,3 +4,9 @@
   height: fit-content;
   line-height: 140%;
 }
+
+@media screen and (max-width: 768px) {
+  .about__gr-text {
+    min-height: unset;
+  }
+}

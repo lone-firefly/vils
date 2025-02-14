@@ -1,6 +1,12 @@
 .prev__title {
-  font-size: 80px;
+  font-size: var(--index-prev-title-font);
   font-weight: 900;
   margin: 0;
   height: 97px;
+}
+
+@media screen and (max-width: 768px) {
+  .prev__title {
+    height: fit-content;
+  }
 }

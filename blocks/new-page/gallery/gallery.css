@@ -6,3 +6,9 @@
   height: fit-content;
   margin-top: 50px;
 }
+
+@media screen and (max-width: 450px) {
+  .gallery {
+    gap: 10px;
+  }
+}

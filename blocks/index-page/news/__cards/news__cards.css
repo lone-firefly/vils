@@ -9,7 +9,7 @@
 @media screen and (max-width: 1147px) {
   .news__cards {
     justify-content: unset;
-    max-width: 692px;
+    /* max-width: 692px; */
     gap: 40px;
   }
 }

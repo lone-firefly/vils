@@ -4,9 +4,10 @@
   height: 2px;
   background-color: var(--main-blue);
   margin: 20px 0;
+  border-radius: 1px;
 }
 
-@media screen and (max-width: 901px) {
+@media screen and (max-width: 1147px) {
   .news__line {
     display: none;
   }

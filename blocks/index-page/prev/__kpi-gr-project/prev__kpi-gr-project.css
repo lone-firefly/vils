@@ -1,4 +1,17 @@
 .prev__kpi-gr-project {
   height: 86px;
   justify-items: flex-start;
+  padding-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .prev__kpi-gr-project {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .prev__kpi-gr-project {
+    padding: 0;
+  }
 }

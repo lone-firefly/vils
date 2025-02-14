@@ -1,0 +1,7 @@
+@media screen and (max-width: 607px) {
+  .footer__gr-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}

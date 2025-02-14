@@ -9,3 +9,9 @@
   padding-left: var(--padding-left-card);
   padding-right: 24px;
 }
+
+@media screen and (max-width: 768px) {
+  .kpi__gr {
+    min-height: unset;
+  }
+}

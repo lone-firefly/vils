@@ -4,3 +4,10 @@
   gap: 18px;
   height: fit-content;
 }
+
+@media screen and (max-width: 607px) {
+  .footer__gr-contacts {
+    padding-left: var(--padding-calc-flex);
+    padding-top: 50px;
+  }
+}

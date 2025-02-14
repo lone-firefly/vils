@@ -9,3 +9,16 @@
   box-sizing: border-box;
   padding: 109px;
 }
+
+@media screen and (max-width: 768px) {
+  .prev__title-gr {
+    height: fit-content;
+    padding: 60px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .prev__title-gr {
+    padding: 40px;
+  }
+}

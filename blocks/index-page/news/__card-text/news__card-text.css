@@ -2,3 +2,10 @@
   max-height: 166px;
   overflow: hidden;
 }
+
+@media screen and (max-width: 1147px) {
+  .news__card-text {
+    max-height: 83px;
+    overflow: hidden;
+  }
+}

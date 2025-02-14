@@ -8,3 +8,9 @@
   max-width: var(--w-max-adaptive);
   justify-self: center;
 }
+
+@media screen and (max-width: 607px) {
+  .footer__gr-main {
+    gap: 15px;
+  }
+}

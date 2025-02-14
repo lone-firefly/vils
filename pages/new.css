@@ -80,6 +80,7 @@
 @import "../blocks/footer/__address/footer__address.css";
 @import "../blocks/footer/__copyright/footer__copyright.css";
 @import "../blocks/footer/__rights/footer__rights.css";
+@import "../blocks/footer/__sn-gr/footer__sn-gr.css";
 @import "../blocks/footer/footer.css";
 
 /* Poster */
@@ -107,3 +108,10 @@
 @import "../blocks/new-page/gallery/__vertical-first/gallery__vertical-first.css";
 @import "../blocks/new-page/gallery/__vertical-second/gallery__vertical-second.css";
 @import "../blocks/new-page/gallery/__vert-img/gallery__vert-img.css";
+
+/* Back */
+@import "../blocks/new-page/back/back.css";
+@import "../blocks/new-page/back/__next-gr/back__next-gr.css";
+@import "../blocks/new-page/back/__next-img/back__next-img.css";
+@import "../blocks/new-page/back/__next-text/back__next-text.css";
+@import "../blocks/new-page/back/__next-line/back__next-line.css";

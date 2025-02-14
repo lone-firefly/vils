@@ -1,7 +1,13 @@
 .kpi__title {
   margin: 0px;
-  font-size: 50px;
+  font-size: var(--kpi-title-font);
   font-weight: 700;
   color: var(--main-blue);
   height: 61px;
+}
+
+@media screen and (max-width: 768px) {
+  .kpi__title {
+    height: fit-content;
+  }
 }
