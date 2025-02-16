@@ -32,6 +32,12 @@
   }
 }
 
+@media screen and (max-width: 370px) {
+  .news__card {
+    min-width: unset;
+  }
+}
+
 .news__card:hover {
   transform: translateY(-10px);
 }

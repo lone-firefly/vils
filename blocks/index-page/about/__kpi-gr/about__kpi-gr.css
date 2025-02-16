@@ -33,3 +33,9 @@
     min-width: unset;
   }
 }
+
+@media screen and (max-width: 370px) {
+  .about__kpi-gr {
+    min-height: unset;
+  }
+}

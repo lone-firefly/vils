@@ -7,12 +7,12 @@
 
 @media screen and (max-width: 1147px) {
   .news__text-gr {
-    gap: 15px;
+    gap: 10px;
   }
 }
 
-@media screen and (max-width: 901px) {
+/* @media screen and (max-width: 901px) {
   .news__text-gr {
     gap: 15px;
   }
-}
+} */

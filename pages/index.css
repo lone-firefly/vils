@@ -137,6 +137,7 @@
 @import "../blocks/index-page/ann/__img/ann__img.css";
 @import "../blocks/index-page/ann/__card-bg/ann__card-bg.css";
 @import "../blocks/index-page/ann/__card-title/ann__card-title.css";
+@import "../blocks/index-page/ann/__date/ann__date.css";
 @import "../blocks/index-page/ann/__card-text/ann__card-text.css";
 @import "../blocks/index-page/ann/__card-text/_hidden/ann__card-text_hidden.css";
 @import "../blocks/index-page/ann/ann.css";
@@ -154,4 +155,5 @@
 @import "../blocks/index-page/news/__text-gr/news__text-gr.css";
 @import "../blocks/index-page/news/__next/news__next.css";
 @import "../blocks/index-page/news/__next-line/news__next-line.css";
+@import "../blocks/index-page/news/__data/news__data.css";
 @import "../blocks/index-page/news/news.css";

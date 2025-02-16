@@ -50,3 +50,19 @@
     --index-prev-subtitle-font: 28px;
   }
 }
+
+@media screen and (max-width: 460px) {
+  :root {
+    --index-prev-title-font: 50px;
+    --index-prev-subtitle-font: 28px;
+    --kpi-title-font: 32px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  :root {
+    --index-prev-title-font: 40px;
+    --index-prev-subtitle-font: 26px;
+    --kpi-title-font: 32px;
+  }
+}

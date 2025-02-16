@@ -41,3 +41,9 @@
     padding: 50px 50px;
   }
 }
+
+@media screen and (max-width: 460px) {
+  .prev__kpis {
+    padding: 50px 7vw;
+  }
+}

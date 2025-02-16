@@ -32,6 +32,12 @@
   }
 }
 
+@media screen and (max-width: 370px) {
+  .ann__card {
+    min-width: unset;
+  }
+}
+
 .ann__card:hover {
   .ann__card-text {
     opacity: 1;
