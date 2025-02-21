@@ -1,0 +1,30 @@
+.lic__win {
+  border: 1px solid var(--main-blue);
+  padding: 20px;
+  text-align: start;
+  vertical-align: top;
+}
+
+td:first-child,
+th:first-child {
+  border-left: none;
+}
+
+td:last-child,
+th:last-child {
+  border-right: none;
+}
+
+tr:first-child th {
+  border-top: none;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+@media screen and (max-width: 530px) {
+  .lic__win {
+    padding: 10px;
+  }
+}

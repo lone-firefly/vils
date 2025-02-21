@@ -155,5 +155,8 @@
 @import "../blocks/index-page/news/__text-gr/news__text-gr.css";
 @import "../blocks/index-page/news/__next/news__next.css";
 @import "../blocks/index-page/news/__next-line/news__next-line.css";
+@import "../blocks/index-page/news/__next-gr/news__next-gr.css";
+@import "../blocks/index-page/news/__next-text/news__next-text.css";
+@import "../blocks/index-page/news/__next-img/news__next-img.css";
 @import "../blocks/index-page/news/__data/news__data.css";
 @import "../blocks/index-page/news/news.css";

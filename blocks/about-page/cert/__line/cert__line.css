@@ -4,3 +4,15 @@
   background-color: var(--main-blue);
   margin: 23px 0 20px 0;
 }
+
+@media screen and (max-width: 788px) {
+  .cert__line {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 689px) {
+  .cert__line {
+    width: 174px;
+  }
+}

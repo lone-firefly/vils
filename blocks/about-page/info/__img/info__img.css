@@ -1,0 +1,38 @@
+.info__img {
+  position: absolute;
+  width: 47%;
+  right: 0px;
+  top: 10px;
+}
+
+@media screen and (max-width: 1385px) {
+  .info__img {
+    width: 17vw;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .info__img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .info__img {
+    display: block;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .info__img {
+    width: 47vw;
+    right: -80px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .info__img {
+    display: none;
+  }
+}

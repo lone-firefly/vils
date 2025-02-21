@@ -10,3 +10,22 @@
   flex-flow: column;
   align-items: center;
 }
+
+@media screen and (max-width: 788px) {
+  .cert__card {
+    min-height: unset;
+    width: 294px;
+  }
+}
+
+@media screen and (max-width: 689px) {
+  .cert__card {
+    width: 248px;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .cert__card {
+    height: fit-content;
+  }
+}

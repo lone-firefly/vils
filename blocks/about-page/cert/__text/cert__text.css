@@ -2,3 +2,15 @@
   width: 252px;
   height: fit-content;
 }
+
+@media screen and (max-width: 788px) {
+  .cert__text {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 689px) {
+  .cert__text {
+    width: 174px;
+  }
+}

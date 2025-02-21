@@ -1,4 +1,6 @@
 .info__kpi {
+  position: relative;
+  overflow: hidden;
   display: grid;
   grid-area: kpi;
   max-width: 640px;

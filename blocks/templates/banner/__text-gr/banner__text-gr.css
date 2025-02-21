@@ -9,3 +9,15 @@
   width: 90%;
   margin-left: calc((var(--w) - var(--ws)) / 2);
 }
+
+@media screen and (max-width: 455px) {
+  .banner__text-gr {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .banner__text-gr {
+    padding-left: 20px;
+  }
+}

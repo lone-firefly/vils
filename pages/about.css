@@ -104,6 +104,8 @@
 @import "../blocks/about-page/info/__kpi/info__kpi.css";
 @import "../blocks/about-page/info/__kpi-title/info__kpi-title.css";
 @import "../blocks/about-page/info/__kpi-text/info__kpi-text.css";
+@import "../blocks/about-page/info/__img/info__img.css";
+
 @import "../blocks/about-page/info/__small-text-gr/info__small-text-gr.css";
 @import "../blocks/about-page/info/__small-text/info__small-text.css";
 @import "../blocks/about-page/info/info.css";
@@ -125,7 +127,16 @@
 @import "../blocks/about-page/lic/__next-text/lic__next-text.css";
 @import "../blocks/about-page/lic/__next-img/lic__next-img.css";
 @import "../blocks/about-page/lic/__next-line/lic__next-line.css";
-/* @import "../blocks/about-page/lic/__/lic__.css"; */
+
+@import "../blocks/about-page/lic/__card/lic__card.css";
+@import "../blocks/about-page/lic/__card/_hide/lic__card_hide.css";
+@import "../blocks/about-page/lic/__card-title/lic__card-title.css";
+@import "../blocks/about-page/lic/__table/lic__table.css";
+@import "../blocks/about-page/lic/__list/lic__list.css";
+@import "../blocks/about-page/lic/__str/lic__str.css";
+@import "../blocks/about-page/lic/__win/lic__win.css";
+@import "../blocks/about-page/lic/__link/lic__link.css";
+
 @import "../blocks/about-page/lic/lic.css";
 
 /* Accr */

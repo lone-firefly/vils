@@ -10,10 +10,23 @@
   align-items: center;
   box-sizing: border-box;
   padding: 0 var(--padding-calc-flex);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
 }
 
 @media screen and (min-width: 1440px) {
   .lic__btn-popup {
     padding: 0 var(--padding-calc-stat);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lic__btn-popup {
+    height: 95px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .lic__btn-popup {
+    padding: 0 15px;
   }
 }

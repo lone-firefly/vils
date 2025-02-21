@@ -2,5 +2,18 @@
   width: 252px;
   height: 362px;
   object-fit: contain;
-  border: solid 1px var(--black);
+  border: solid 1px var(--main-blue);
+}
+
+@media screen and (max-width: 788px) {
+  .cert__img {
+    width: 220px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 689px) {
+  .cert__img {
+    width: 174px;
+  }
 }

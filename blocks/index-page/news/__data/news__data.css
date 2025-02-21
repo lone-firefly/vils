@@ -1,4 +1,11 @@
 .news__data {
   color: var(--main-blue);
   font-size: 14px;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 1147px) {
+  .news__data {
+    margin-bottom: 0;
+  }
 }
