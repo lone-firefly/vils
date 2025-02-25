@@ -1,1 +1,16 @@
+.news__svg {
+  width: 100%;
+  height: 35.46vh;
+  height: 166.66px;
+  position: relative;
+  aspect-ratio: 493 / 350;
+}
 
+@media screen and (max-width: 1147px) {
+  .news__svg {
+    max-width: 252px;
+    width: 22vw;
+    height: 25vh;
+    /* height: auto; */
+  }
+}

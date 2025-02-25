@@ -8,6 +8,7 @@
 @media screen and (max-width: 1147px) {
   .news__text-gr {
     gap: 10px;
+    /* width: 80%; было для svg чтоб пропорционально уменьшались*/
   }
 }
 

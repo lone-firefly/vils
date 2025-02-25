@@ -3,7 +3,29 @@
   padding: 20px;
   text-align: start;
   vertical-align: top;
+
+  /* hyphens: auto;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  text-align: justify; */
 }
+
+@media screen and (max-width: 390px) {
+  .lic__win {
+    hyphens: auto;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    text-align: justify;
+  }
+}
+
+/* td:nth-child(2),
+th:nth-child(2) {
+  hyphens: auto;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  text-align: justify;
+} */
 
 td:first-child,
 th:first-child {

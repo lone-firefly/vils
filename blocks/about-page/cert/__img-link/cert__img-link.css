@@ -1,19 +1,17 @@
-.cert__img {
-  width: 254px;
-  height: 362px;
-  object-fit: contain;
-  border: solid 1px var(--main-blue);
+.cert__img-link {
+  width: 252px;
+  height: 364px;
 }
 
 @media screen and (max-width: 788px) {
-  .cert__img {
+  .cert__img-link {
     width: 220px;
     height: auto;
   }
 }
 
 @media screen and (max-width: 689px) {
-  .cert__img {
+  .cert__img-link {
     width: 174px;
   }
 }

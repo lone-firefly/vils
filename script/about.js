@@ -1,3 +1,5 @@
+baguetteBox.run(".gallery");
+
 const btnPopup = document.querySelector(".lic__btn-popup");
 const table = document.querySelector(".lic__card");
 

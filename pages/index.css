@@ -150,6 +150,7 @@
 @import "../blocks/index-page/news/__img-gr/news__img-gr.css";
 @import "../blocks/index-page/news/__img/news__img.css";
 @import "../blocks/index-page/news/__svg/news__svg.css";
+@import "../blocks/index-page/news/__mask/news__mask.css";
 @import "../blocks/index-page/news/__card-title/news__card-title.css";
 @import "../blocks/index-page/news/__line/news__line.css";
 @import "../blocks/index-page/news/__text-gr/news__text-gr.css";

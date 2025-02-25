@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./pages/about.css" />
     <link rel="icon" href="./images/header/logo-blue.svg" type="image/x-icon" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css"
+      rel="stylesheet"
+    />
     <title>ВИЛС</title>
   </head>
   <body class="page">
@@ -116,20 +120,30 @@
         </h3>
         <div class="cert__gr">
           <div class="card cert__card">
-            <img
-              class="cert__img"
-              alt="Сертификат ISO 9001:2015"
-              src="./images/about/cert/cert1.png"
-            />
+            <a
+              class="gallery cert__img-link"
+              href="./images/about/cert/cert1.png"
+            >
+              <img
+                class="cert__img"
+                alt="Сертификат ISO 9001:2015"
+                src="./images/about/cert/cert1.png"
+              />
+            </a>
             <div class="cert__line"></div>
             <p class="text cert__text">Сертификат ISO 9001:2015</p>
           </div>
           <div class="card cert__card">
-            <img
-              class="cert__img"
-              alt="Сертификат ISO 9001:2015"
-              src="./images/about/cert/cert2.png"
-            />
+            <a
+              class="gallery cert__img-link"
+              href="./images/about/cert/cert2.png"
+            >
+              <img
+                class="cert__img"
+                alt="Сертификат ISO 9001:2015"
+                src="./images/about/cert/cert2.png"
+              />
+            </a>
             <div class="cert__line"></div>
             <p class="text cert__text">
               Сертификат на&nbsp;производство авиационных материалов АР МАК
@@ -589,6 +603,7 @@
         </div>
       </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
     <script src="./script/about.js"></script>
   </body>
 </html>
