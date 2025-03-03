@@ -1,0 +1,9 @@
+.items__link {
+  text-decoration: none;
+  color: var(--main-blue);
+  text-decoration: underline;
+  text-decoration-color: var(--main-blue);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  width: fit-content;
+}

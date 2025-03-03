@@ -1,9 +1,9 @@
 .cert__text {
-  width: 252px;
+  width: 254px;
   height: fit-content;
 }
 
-@media screen and (max-width: 788px) {
+@media screen and (max-width: 797px) {
   .cert__text {
     width: 220px;
   }

@@ -1,0 +1,13 @@
+.items__text-gr {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 68%;
+  background-color: var(--white);
+  border-radius: var(--br);
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  padding-left: 36px;
+}

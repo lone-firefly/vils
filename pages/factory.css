@@ -10,6 +10,7 @@
 @import "../blocks/font-styles/text/text.css"; /* for the all text in page (18)*/
 @import "../blocks/font-styles/text-bold/text-bold.css"; /* for the highlighted text (18)*/
 @import "../blocks/font-styles/text-bold/_blue/text-bold_blue.css"; /* for the blue highlighted text (18)*/
+@import "../blocks/font-styles/text-bold/_white/text-bold_white.css"; /* for the white text for btn (18)*/
 @import "../blocks/font-styles/text-subtitle/text-subtitle.css"; /* for the link text with arrows (20)*/
 @import "../blocks/font-styles/section-title/section-title.css"; /* for the all section titles in page */
 @import "../blocks/font-styles/main-title/main-title.css"; /* for the page title (banner) */
@@ -39,6 +40,26 @@
 @import "../blocks/templates/banner/__text-gr/banner__text-gr.css";
 @import "../blocks/templates/banner/__text/banner__text.css";
 @import "../blocks/templates/banner/banner.css";
+
+@import "../blocks/templates/btn/btn.css";
+@import "../blocks/templates/btn/__active/btn__active.css";
+
+/* Products */
+@import "../blocks/templates/items/__main-gr/items__main-gr.css";
+@import "../blocks/templates/items/__main-gr/_open/items__main-gr_open.css";
+@import "../blocks/templates/items/__gr/items__gr.css";
+@import "../blocks/templates/items/__img/items__img.css";
+@import "../blocks/templates/items/__text-gr/items__text-gr.css";
+@import "../blocks/templates/items/__text/items__text.css";
+@import "../blocks/templates/items/__table/items__table.css";
+@import "../blocks/templates/items/__table/_hide/items__table_hide.css";
+@import "../blocks/templates/items/__main-ul/items__main-ul.css";
+@import "../blocks/templates/items/__li/items__li.css";
+@import "../blocks/templates/items/__small-li/items__small-li.css";
+@import "../blocks/templates/items/__link/items__link.css";
+@import "../blocks/templates/items/__small-ul/items__small-ul.css";
+@import "../blocks/templates/items/__subtitle/items__subtitle.css";
+@import "../blocks/templates/items/items.css";
 
 /* Header */
 @import "../blocks/header/header.css";
@@ -97,3 +118,44 @@
 @import "../blocks/factory-page/poster/__text-gr/poster__text-gr.css";
 @import "../blocks/factory-page/poster/__text/poster__text.css";
 @import "../blocks/factory-page/poster/poster.css";
+
+/* Products */
+@import "../blocks/factory-page/products/__main-gr/products__main-gr.css";
+@import "../blocks/factory-page/products/__main-gr/_open/products__main-gr_open.css";
+@import "../blocks/factory-page/products/__gr/products__gr.css";
+@import "../blocks/factory-page/products/__img/products__img.css";
+@import "../blocks/factory-page/products/__img/_nickel/products__img_nickel.css";
+@import "../blocks/factory-page/products/__img/_titanium/products__img_titanium.css";
+@import "../blocks/factory-page/products/__img/_steel/products__img_steel.css";
+@import "../blocks/factory-page/products/__img/_aluminium/products__img_aluminium.css";
+@import "../blocks/factory-page/products/__img/_magnesium/products__img_magnesium.css";
+@import "../blocks/factory-page/products/__img/_smooth-steel/products__img_smooth-steel.css";
+@import "../blocks/factory-page/products/__text-gr/products__text-gr.css";
+@import "../blocks/factory-page/products/__text/products__text.css";
+@import "../blocks/factory-page/products/__table/products__table.css";
+@import "../blocks/factory-page/products/__table/_hide/products__table_hide.css";
+@import "../blocks/factory-page/products/__main-ul/products__main-ul.css";
+@import "../blocks/factory-page/products/__li/products__li.css";
+@import "../blocks/factory-page/products/__small-li/products__small-li.css";
+@import "../blocks/factory-page/products/__link/products__link.css";
+@import "../blocks/factory-page/products/__small-ul/products__small-ul.css";
+@import "../blocks/factory-page/products/__subtitle/products__subtitle.css";
+@import "../blocks/factory-page/products/products.css";
+@import "../blocks/factory-page/products/_hide/products_hide.css";
+
+/* Links */
+@import "../blocks/factory-page/links/__btn/links__btn.css";
+@import "../blocks/factory-page/links/__btn-text/links__btn-text.css";
+@import "../blocks/factory-page/links/__btn-text/_white/links__btn-text_white.css";
+@import "../blocks/factory-page/links/links.css";
+
+/* Links-small */
+@import "../blocks/factory-page/links-small/__btn/links-small__btn.css";
+@import "../blocks/factory-page/links-small/__btn-text/links-small__btn-text.css";
+@import "../blocks/factory-page/links-small/__products/links-small__products.css";
+@import "../blocks/factory-page/links-small/__sectors/links-small__sectors.css";
+@import "../blocks/factory-page/links-small/links-small.css";
+
+/* Sectors */
+@import "../blocks/factory-page/sectors/sectors.css";
+@import "../blocks/factory-page/sectors/_hide/sectors_hide.css";

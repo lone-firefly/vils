@@ -4,3 +4,9 @@
     padding-right: 62px;
   }
 }
+
+@media screen and (max-width: 370px) {
+  .footer__sn-gr {
+    padding-right: 12px;
+  }
+}

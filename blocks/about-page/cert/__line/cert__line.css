@@ -1,11 +1,11 @@
 .cert__line {
-  width: 252px;
+  width: 254px;
   height: 2px;
   background-color: var(--main-blue);
   margin: 23px 0 20px 0;
 }
 
-@media screen and (max-width: 788px) {
+@media screen and (max-width: 797px) {
   .cert__line {
     width: 220px;
   }

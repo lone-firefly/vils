@@ -1,0 +1,10 @@
+.items__gr {
+  display: flex;
+  position: relative;
+  width: var(--ws);
+  max-width: var(--w-small-max-adaptive);
+  height: 70px;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+}

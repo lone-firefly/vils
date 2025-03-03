@@ -1,0 +1,26 @@
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 38px;
+  width: var(--w);
+  max-width: var(--w-max-adaptive);
+  min-height: 195px;
+  height: fit-content;
+  align-items: center;
+  padding: 0;
+  box-sizing: border-box;
+  padding-left: var(--padding-calc-flex);
+  margin-bottom: 37px;
+}
+
+@media screen and (max-width: 455px) {
+  .links {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .links {
+    padding-left: 20px;
+  }
+}

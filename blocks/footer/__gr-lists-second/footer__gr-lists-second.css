@@ -1,11 +1,11 @@
 @media screen and (max-width: 880px) {
   .footer__gr-lists-second {
-    padding-right: 100px;
+    padding-right: 101px;
   }
 }
 
 @media screen and (max-width: 370px) {
   .footer__gr-lists-second {
-    padding-right: 47px;
+    padding-right: 51px;
   }
 }

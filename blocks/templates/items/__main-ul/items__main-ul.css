@@ -1,0 +1,6 @@
+.items__main-ul {
+  display: grid;
+  gap: 22px;
+  margin: 35px 36px 43px 36px;
+  padding: 0;
+}

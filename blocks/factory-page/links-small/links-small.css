@@ -1,0 +1,6 @@
+.links-small {
+  display: flex;
+  gap: 36px;
+  padding-left: var(--padding-calc-flex);
+  justify-self: left;
+}

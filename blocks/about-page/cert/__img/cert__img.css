@@ -5,7 +5,7 @@
   border: solid 1px var(--main-blue);
 }
 
-@media screen and (max-width: 788px) {
+@media screen and (max-width: 797px) {
   .cert__img {
     width: 220px;
     height: auto;

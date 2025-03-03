@@ -1,0 +1,7 @@
+.items__main-gr {
+  display: flex;
+  flex-flow: column;
+  border-radius: var(--br);
+  width: var(--ws);
+  max-width: var(--w-small-max-adaptive);
+}

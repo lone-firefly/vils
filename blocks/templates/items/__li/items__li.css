@@ -1,0 +1,8 @@
+.items__li {
+  display: grid;
+  gap: 22px;
+  list-style: none;
+  width: fit-content;
+  min-height: 22px;
+  height: fit-content;
+}
