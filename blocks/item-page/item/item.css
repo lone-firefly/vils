@@ -1,0 +1,5 @@
+.item {
+  width: var(--ws);
+  max-width: var(--w-small-max-adaptive);
+  margin-top: 80px;
+}

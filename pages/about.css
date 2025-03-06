@@ -40,6 +40,13 @@
 @import "../blocks/templates/banner/__text/banner__text.css";
 @import "../blocks/templates/banner/banner.css";
 
+@import "../blocks/templates/table/table.css";
+@import "../blocks/templates/table/__card-title/table__card-title.css";
+@import "../blocks/templates/table/__list/table__list.css";
+@import "../blocks/templates/table/__str/table__str.css";
+@import "../blocks/templates/table/__win/table__win.css";
+@import "../blocks/templates/table/__link/table__link.css";
+
 /* Header */
 @import "../blocks/header/header.css";
 @import "../blocks/header/__top-bar/header__top-bar.css";

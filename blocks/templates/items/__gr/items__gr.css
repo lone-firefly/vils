@@ -8,3 +8,18 @@
   overflow: hidden;
   border: none;
 }
+
+@media screen and (max-width: 930px) {
+  .items__gr {
+    max-height: 89px;
+    min-height: 70px;
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .items__gr {
+    min-height: 58px;
+    max-height: unset;
+  }
+}

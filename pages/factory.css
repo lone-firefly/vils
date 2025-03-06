@@ -157,5 +157,20 @@
 @import "../blocks/factory-page/links-small/links-small.css";
 
 /* Sectors */
+@import "../blocks/factory-page/sectors/__main-gr/sectors__main-gr.css";
+@import "../blocks/factory-page/sectors/__main-gr/_open/sectors__main-gr_open.css";
+@import "../blocks/factory-page/sectors/__gr/sectors__gr.css";
+@import "../blocks/factory-page/sectors/__img/sectors__img.css";
+@import "../blocks/factory-page/sectors/__text-gr/sectors__text-gr.css";
+@import "../blocks/factory-page/sectors/__text/sectors__text.css";
+@import "../blocks/factory-page/sectors/__table/sectors__table.css";
+@import "../blocks/factory-page/sectors/__table/_hide/sectors__table_hide.css";
+@import "../blocks/factory-page/sectors/__main-ul/sectors__main-ul.css";
+@import "../blocks/factory-page/sectors/__li/sectors__li.css";
+@import "../blocks/factory-page/sectors/__small-li/sectors__small-li.css";
+@import "../blocks/factory-page/sectors/__link/sectors__link.css";
+@import "../blocks/factory-page/sectors/__small-ul/sectors__small-ul.css";
+@import "../blocks/factory-page/sectors/__subtitle/sectors__subtitle.css";
+
 @import "../blocks/factory-page/sectors/sectors.css";
 @import "../blocks/factory-page/sectors/_hide/sectors_hide.css";

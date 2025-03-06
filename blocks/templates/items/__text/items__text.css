@@ -1,4 +1,7 @@
 .items__text {
   width: fit-content;
-  height: 22px;
+  min-height: 22px;
+  max-height: 42px;
+  height: fit-content;
+  text-align: start;
 }

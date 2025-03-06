@@ -1,0 +1,11 @@
+@media screen and (max-width: 868px) {
+  .links-small__btn {
+    padding: 20px 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .links-small__btn {
+    padding: 15px 25px;
+  }
+}

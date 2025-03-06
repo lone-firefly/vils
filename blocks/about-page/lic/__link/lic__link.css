@@ -1,7 +1,3 @@
-.lic__link {
-  text-align: start;
-}
-
 @media screen and (max-width: 530px) {
   .lic__link {
     font-size: 12px;

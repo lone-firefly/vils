@@ -1,11 +1,3 @@
-.lic__table {
-  border-collapse: collapse;
-  border: none;
-  width: var(--ws);
-  max-width: var(--w-small-max-adaptive);
-  margin-bottom: 33px;
-}
-
 @media screen and (max-width: 390px) {
   .lic__table {
     width: 100%;

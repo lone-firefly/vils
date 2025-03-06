@@ -1,0 +1,16 @@
+.sectors__img {
+  object-position: center;
+  width: 70%;
+}
+
+@media screen and (max-width: 960px) {
+  .sectors__img {
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .sectors__img {
+    width: 100%;
+  }
+}

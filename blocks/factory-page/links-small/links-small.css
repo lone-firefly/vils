@@ -1,6 +1,27 @@
 .links-small {
   display: flex;
+  flex-wrap: wrap;
   gap: 36px;
-  padding-left: var(--padding-calc-flex);
+  width: var(--ws);
+  max-width: var(--w-small-max-adaptive);
+  padding: 0 var(--padding-calc-flex);
   justify-self: left;
+}
+
+@media screen and (min-width: 1440px) {
+  .links-small {
+    padding: 0 var(--padding-calc-stat);
+  }
+}
+
+@media screen and (max-width: 789px) {
+  .links-small {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .links-small {
+    gap: 15px;
+  }
 }

@@ -1,0 +1,21 @@
+.item__win {
+  padding: 10px 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .item__win {
+    padding: 10px 10px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .item__win {
+    padding: 10px 8px;
+  }
+}
+
+/* @media screen and (max-width: 350px) {
+  .item__win {
+    padding: 7px 8px;
+  }
+} */

@@ -1,0 +1,31 @@
+.item__card-table {
+  display: flex;
+  align-items: center;
+  width: 55%;
+  min-height: 401px;
+  height: fit-content;
+  background-color: var(--white);
+  border-radius: var(--br);
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  padding: 28px 31px;
+}
+
+@media screen and (max-width: 1065px) {
+  .item__card-table {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .item__card-table {
+    padding: 15px 20px;
+    min-height: 380px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .item__card-table {
+    padding: 18px 10px;
+  }
+}

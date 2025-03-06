@@ -1,3 +1,15 @@
 .links__btn {
   text-decoration: none;
 }
+
+@media screen and (max-width: 868px) {
+  .links__btn {
+    padding: 20px 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .links__btn {
+    padding: 15px 25px;
+  }
+}

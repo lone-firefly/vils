@@ -1,0 +1,8 @@
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: var(--ws);
+  max-width: var(--w-small-max-adaptive);
+  align-items: center;
+}

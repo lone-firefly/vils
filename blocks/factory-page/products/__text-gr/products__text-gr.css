@@ -1,0 +1,11 @@
+@media screen and (max-width: 759px) {
+  .products__text-gr {
+    height: 68px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .products__text-gr {
+    padding: 18px 36px;
+  }
+}

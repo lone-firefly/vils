@@ -1,0 +1,17 @@
+@media screen and (max-width: 818px) {
+  .sectors__gr {
+    height: 89px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sectors__gr {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 671px) {
+  .sectors__gr {
+    height: 68px;
+  }
+}

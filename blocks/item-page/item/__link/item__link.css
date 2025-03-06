@@ -1,0 +1,11 @@
+.item__link {
+  min-height: 22px;
+  height: fit-content;
+  line-height: 140%;
+}
+
+@media screen and (max-width: 350px) {
+  .item__link {
+    font-size: 12px;
+  }
+}
