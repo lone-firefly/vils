@@ -1,0 +1,32 @@
+.executives__card {
+  display: flex;
+  flex-direction: column;
+  min-width: 402px;
+  max-width: 440px;
+  width: 40vw;
+  min-height: 519px;
+  height: auto;
+  border-radius: var(--br);
+  padding: 0;
+  box-sizing: border-box;
+  padding-bottom: 40px;
+  gap: 35px;
+  transition: background-color 1s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .executives__card {
+    min-height: unset;
+    width: 48vw;
+    min-width: 355px;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .executives__card {
+    width: var(--w);
+    min-width: 200px;
+    gap: 30px;
+  }
+}

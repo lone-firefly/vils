@@ -1,0 +1,17 @@
+.executives__gr {
+  display: flex;
+  gap: 102px;
+}
+
+@media screen and (max-width: 1155px) {
+  .executives__gr {
+    gap: 70px;
+  }
+}
+
+@media screen and (max-width: 934px) {
+  .executives__gr {
+    flex-direction: column;
+    gap: 45px;
+  }
+}

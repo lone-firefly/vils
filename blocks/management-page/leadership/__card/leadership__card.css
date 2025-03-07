@@ -1,0 +1,33 @@
+.leadership__card {
+  min-width: 402px;
+  max-width: 440px;
+  width: 40vw;
+  min-height: 519px;
+  height: auto;
+  border-radius: var(--br);
+  padding: 0;
+  box-sizing: border-box;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  text-decoration: none;
+  color: currentColor;
+}
+
+@media screen and (max-width: 768px) {
+  .leadership__card {
+    min-height: unset;
+    width: 48vw;
+    min-width: 355px;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .leadership__card {
+    width: var(--w);
+    min-width: 200px;
+    gap: 30px;
+  }
+}

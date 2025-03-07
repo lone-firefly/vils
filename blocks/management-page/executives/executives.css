@@ -1,0 +1,13 @@
+.executives {
+  display: flex;
+  flex-direction: column;
+  width: var(--w);
+  max-width: var(--w-max-adaptive);
+  margin-top: 135px;
+}
+
+@media screen and (max-width: 1155px) {
+  .executives {
+    margin-top: 100px;
+  }
+}

@@ -1,0 +1,26 @@
+.leadership__card_blue {
+  position: relative;
+  background-color: var(--main-blue); /* Фоновый цвет */
+  overflow: hidden;
+  z-index: -2;
+}
+
+.leadership__card_blue::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--linear-dark-blue); /* Градиент */
+  transition: opacity 1s ease;
+  z-index: -1;
+}
+
+.leadership__card-link:hover .leadership__card_blue::before {
+  opacity: 0; /* Прячем градиент при наведении */
+}
+
+.leadership__card-link:hover .leadership__card_blue {
+  background-color: var(--main-blue); /* Меняем цвет фона */
+}

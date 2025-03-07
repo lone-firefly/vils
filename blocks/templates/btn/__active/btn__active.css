@@ -1,4 +1,5 @@
 .btn_active {
   background-color: var(--main-blue);
   box-shadow: none;
+  color: var(--white);
 }

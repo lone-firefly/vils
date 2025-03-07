@@ -22,11 +22,15 @@ for (let i = 0; i < btnsPopup.length; ++i) {
 
 // кнопки сортировки материал/отрасль
 btnProducts.addEventListener("click", function () {
+  btnProducts.classList.add("btn_active");
+  btnSectors.classList.remove("btn_active");
   products.classList.remove("products_hide");
   sectors.classList.add("sectors_hide");
 });
 
 btnSectors.addEventListener("click", function () {
+  btnSectors.classList.add("btn_active");
+  btnProducts.classList.remove("btn_active");
   sectors.classList.remove("sectors_hide");
   products.classList.add("products_hide");
 });

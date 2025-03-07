@@ -1,0 +1,8 @@
+.executives__card-link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.executives__card-link:hover .executives__card {
+  background-color: var(--grey);
+}

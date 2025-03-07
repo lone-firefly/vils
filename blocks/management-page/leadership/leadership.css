@@ -1,0 +1,20 @@
+.leadership {
+  display: flex;
+  gap: 102px;
+  width: var(--w);
+  max-width: var(--w-max-adaptive);
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 1155px) {
+  .leadership {
+    gap: 70px;
+  }
+}
+
+@media screen and (max-width: 934px) {
+  .leadership {
+    flex-direction: column;
+    gap: 100px;
+  }
+}
